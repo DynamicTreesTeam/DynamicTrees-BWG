@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-19T00:23:34.2907673	Item Models: dtbwg
+// 1.20.1	2025-05-21T22:06:16.172377693	Item Models: dtbwg
 6f971763ba50d2ce6169d35b6833d98e90daec53 assets/dtbwg/models/item/allium_seed.json
 976835ce375471464f989727e4ae09df143f6b64 assets/dtbwg/models/item/araucaria_seed.json
 4871c78872161db0ceab3983c2571f74a2e09f0e assets/dtbwg/models/item/aspen_branch.json
@@ -32,6 +32,7 @@ f74be181f0add61e283240b564442509a9ab3e40 assets/dtbwg/models/item/jacaranda_seed
 5a7077ebf97a22f4480d55921bb16275ab43412a assets/dtbwg/models/item/mahogany_seed.json
 4d725ed7856f01aa4f2c7165623d520b92907868 assets/dtbwg/models/item/maple_branch.json
 3579822421281eedc1e2adbf1677ed9ad97ecf8e assets/dtbwg/models/item/maple_seed.json
+3016bbdc89d18d0d0e86d69a06f557cebd13f56f assets/dtbwg/models/item/orange_birch_seed.json
 27b77c22d113dddbf81ddaa646bbbd9a13a9971e assets/dtbwg/models/item/orange_spruce_seed.json
 cc4766d1a6ba7d2734792fe6ff188f9e6fa8f0b5 assets/dtbwg/models/item/orchard_seed.json
 48dd2717ade67c9e16774d9a8773c2ab4f22e19d assets/dtbwg/models/item/palm_branch.json
@@ -44,10 +45,10 @@ ad1d5848874535cfb8bee295beaa4e2d08f9f525 assets/dtbwg/models/item/pine_seed.json
 7d5927f7911cce986a509e5e2a7b6a78c9f101dc assets/dtbwg/models/item/poplar_seed.json
 b271e1df2340a5267283412929ca1431ba0ce46c assets/dtbwg/models/item/rainbow_eucalyptus_branch.json
 0f72e0e1c54779681c62f85fb9a60833da63be7d assets/dtbwg/models/item/rainbow_eucalyptus_seed.json
-9bb59aaac935fd38c7d24290200874f5e7204448 assets/dtbwg/models/item/redwood_branch.json
-3f130be74347aab1a43fcbd39e92f98c9dde45db assets/dtbwg/models/item/redwood_seed.json
 a52ea12481119edeaaa80ba61f4d8f7892c9c356 assets/dtbwg/models/item/red_maple_seed.json
 4917cf6382b350d21f372678feae1d05a71a2d79 assets/dtbwg/models/item/red_spruce_seed.json
+9bb59aaac935fd38c7d24290200874f5e7204448 assets/dtbwg/models/item/redwood_branch.json
+3f130be74347aab1a43fcbd39e92f98c9dde45db assets/dtbwg/models/item/redwood_seed.json
 1c95f0afce4848c7807d80c495a31f621a4f0876 assets/dtbwg/models/item/rose_seed.json
 c4c6e38f32168778e9987e17dabc071c50bf56a8 assets/dtbwg/models/item/sakura_branch.json
 f6d3a3a9f3c9e74dcc8c8835ba83d46032ed88ab assets/dtbwg/models/item/silver_maple_seed.json
@@ -65,6 +66,7 @@ ee17ca7b8d8e6cfd0356f8a95382eac75937df4b assets/dtbwg/models/item/white_mangrove
 4a0e61275ccd0c446465f14978aa63e39ea09d48 assets/dtbwg/models/item/witch_hazel_branch.json
 0970671ad46d432cd619710a90c52ebaac955d7b assets/dtbwg/models/item/witch_hazel_seed.json
 c91784c875f3918623b6ae620b50a0fc82bf4a3b assets/dtbwg/models/item/wood_blewit_seed.json
+cc7ac068a88d10842014977976e1c8153ffd96a4 assets/dtbwg/models/item/yellow_birch_seed.json
 fcad24a552a411d7e9d9228410f44d9eb4f5bacb assets/dtbwg/models/item/yellow_poplar_seed.json
 081c842f09267f2a9a2989e756ae0e6d4e08368e assets/dtbwg/models/item/yellow_sakura_seed.json
 096cdf4637610f894fef8bb79c40ef2ae3e94eda assets/dtbwg/models/item/yellow_spruce_seed.json

@@ -383,6 +383,26 @@
   },
   {
     "select": {
+      "name": "biomeswevegone:howling_peaks"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "spruce": 1,
+          "dtbyg:orange_birch": 1,
+          "dtbyg:yellow_birch": 1,
+          "dtbyg:tall_spruce": 1,
+          "dtbyg:tall_orange_birch": 1,
+          "dtbyg:tall_yellow_birch": 1
+        }
+      },
+      "density": [ 1 ],
+      "chance": 0.8,
+      "forestness": 0.8
+    }
+  },
+  {
+    "select": {
       "name": "biomeswevegone:ironwood_gour"
     },
     "apply": {

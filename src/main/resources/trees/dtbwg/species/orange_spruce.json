@@ -16,7 +16,7 @@
     "name": "biomeswevegone:.*crimson_tundra.*"
   },
   "primitive_sapling": "biomeswevegone:orange_spruce_sapling",
-  "mega_species": "dtbwg:mega_yellow_spruce",
+  "mega_species": "dtbwg:mega_orange_spruce",
   "features" : [
     "conifer_topper",
     "podzol"
