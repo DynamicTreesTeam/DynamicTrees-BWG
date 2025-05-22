@@ -38,17 +38,21 @@ import java.util.function.Supplier;
 @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
 public class DTBWGRegistries {
 
-    public static final VoxelShape MUSHROOM_STEM_LONG = Block.box(7D, 0D, 7D, 9D, 10D, 9D);
-    public static final VoxelShape TALL_MUSHROOM_CAP_FLAT = Block.box(5.0D, 7.0D, 5.0D, 11.0D, 10.0D, 11.0D);
-//    public static final VoxelShape SMALL_MUSHROOM_CAP_FLAT = Block.box(5.0D, 5.0D, 5.0D, 11.0D, 7.0D, 11.0D);
-    public static final VoxelShape MUSHROOM_CAP_SHORT_ROUND = Block.box(5.0D, 3.0D, 5.0D, 11.0D, 7.0D, 11.0D);
-//    public static final VoxelShape SOUL_SHROOM_CAP = Block.box(5.5D, 3.0D, 5.5D, 10.5D, 10.0D, 10.5D);
-//    public static final VoxelShape SYTHIAN_CAP_A = Block.box(5D, 3D, 5D, 11D, 5D, 11D);
-//    public static final VoxelShape SYTHIAN_CAP_B = Block.box(4D, 6D, 4D, 12D, 8D, 12D);
-//    public static final VoxelShape SYTHIAN_CAP_C = Block.box(5D, 9D, 5D, 11D, 11D, 11D);
-//    public static final VoxelShape SHULKREN_CAP_A = Block.box(4D, 3D, 4D, 12D, 6D, 12D);
-//    public static final VoxelShape SHULKREN_CAP_B = Block.box(5D, 6D, 5D, 11D, 9D, 11D);
-//    public static final VoxelShape SHULKREN_CAP_C = Block.box(6D, 9D, 6D, 10D, 11D, 10D);
+    private static VoxelShape box(double p_49797_, double p_49798_, double p_49799_, double p_49800_, double p_49801_, double p_49802_) {
+        return Shapes.box(p_49797_ / (double)16.0F, p_49798_ / (double)16.0F, p_49799_ / (double)16.0F, p_49800_ / (double)16.0F, p_49801_ / (double)16.0F, p_49802_ / (double)16.0F);
+    }
+
+    public static final VoxelShape MUSHROOM_STEM_LONG = box(7D, 0D, 7D, 9D, 10D, 9D);
+    public static final VoxelShape TALL_MUSHROOM_CAP_FLAT = box(5.0D, 7.0D, 5.0D, 11.0D, 10.0D, 11.0D);
+//    public static final VoxelShape SMALL_MUSHROOM_CAP_FLAT = box(5.0D, 5.0D, 5.0D, 11.0D, 7.0D, 11.0D);
+    public static final VoxelShape MUSHROOM_CAP_SHORT_ROUND = box(5.0D, 3.0D, 5.0D, 11.0D, 7.0D, 11.0D);
+//    public static final VoxelShape SOUL_SHROOM_CAP = box(5.5D, 3.0D, 5.5D, 10.5D, 10.0D, 10.5D);
+//    public static final VoxelShape SYTHIAN_CAP_A = box(5D, 3D, 5D, 11D, 5D, 11D);
+//    public static final VoxelShape SYTHIAN_CAP_B = box(4D, 6D, 4D, 12D, 8D, 12D);
+//    public static final VoxelShape SYTHIAN_CAP_C = box(5D, 9D, 5D, 11D, 11D, 11D);
+//    public static final VoxelShape SHULKREN_CAP_A = box(4D, 3D, 4D, 12D, 6D, 12D);
+//    public static final VoxelShape SHULKREN_CAP_B = box(5D, 6D, 5D, 11D, 9D, 11D);
+//    public static final VoxelShape SHULKREN_CAP_C = box(6D, 9D, 6D, 10D, 11D, 10D);
 //
     public static final VoxelShape TALL_FLAT_MUSHROOM = Shapes.or(MUSHROOM_STEM_LONG, TALL_MUSHROOM_CAP_FLAT);
 //    public static final VoxelShape SMALL_FLAT_MUSHROOM = Shapes.or(CommonVoxelShapes.MUSHROOM_STEM, SMALL_MUSHROOM_CAP_FLAT);
