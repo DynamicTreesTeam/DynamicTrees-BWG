@@ -30,7 +30,8 @@
         "max_length": 7,
         "quantity": 24
       }
-    }
+    },
+    "bee_nest"
   ],
   "lang_overrides": {
     "seed": "White Mangrove Propagule"

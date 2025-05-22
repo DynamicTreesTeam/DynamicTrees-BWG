@@ -35,7 +35,8 @@
         "alternative_leaves": "dtbwg:flowering_indigo_jacaranda",
         "place_chance": 0.33
       }
-    }
+    },
+    "bee_nest"
   ],
   "lang_overrides": {
     "seed": "Indigo Jacaranda Pod"

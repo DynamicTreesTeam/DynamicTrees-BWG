@@ -17,5 +17,6 @@
     "name": ".*meadow.*"
   },
   "features": [
+    "bee_nest"
   ]
 }

@@ -35,7 +35,8 @@
         "level_limit": 5,
         "scale_factor": 19
       }
-    }
+    },
+    "bee_nest"
   ],
   "lang_overrides": {
     "seed": "Cypress Cone"

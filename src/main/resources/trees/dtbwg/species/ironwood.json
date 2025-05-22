@@ -24,7 +24,8 @@
         "place_chance": 0.7,
         "min_height": 98
       }
-    }
+    },
+    "bee_nest"
   ],
   "lang_overrides": {
     "seed": "Ironwood Pod"

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:bayou",
+    "biomeswevegone:black_forest",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:white_mangrove_marshes",
+    "biomeswevegone:cypress_swamplands"
+  ]
+}
