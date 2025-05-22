@@ -1,0 +1,24 @@
+{
+  "family": "dtbwg:zelkova",
+  "tapering": 0.2,
+  "signal_energy": 25.0,
+  "up_probability": 10,
+  "lowest_branch_height": 4,
+  "growth_rate": 0.9,
+  "growth_logic_kit": "dtbwg:zelkova",
+  "leaves_properties": "dtbwg:brown_zelkova",
+  "generate_seed": true,
+  "generate_sapling": true,
+  "environment_factors" : {
+    "hot": 0.50,
+    "wet": 0.75
+  },
+  "perfect_biomes": { "name": ".*zelkova.*" },
+  "primitive_sapling": "biomeswevegone:brown_zelkova_sapling",
+  "features" : [
+    "conifer_topper"
+  ],
+  "lang_overrides": {
+    "seed": "Brown Zelkova Seeds"
+  }
+}
