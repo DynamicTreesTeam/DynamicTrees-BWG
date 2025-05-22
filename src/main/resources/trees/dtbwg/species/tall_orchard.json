@@ -6,7 +6,7 @@
   "growth_rate": 0.8,
   "lowest_branch_height": 12,
   "leaves_properties": "dtbwg:orchard",
-  "use_seed_of_other_species": "dtbwg:orchard",
+  "seed": "dtbwg:orchard_seed",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

@@ -13,7 +13,7 @@
     }
   },
   "leaves_properties": "dtbwg:orange_spruce",
-  "use_seed_of_other_species": "dtbwg:orange_spruce",
+  "seed": "dtbwg:orange_spruce_seed",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,

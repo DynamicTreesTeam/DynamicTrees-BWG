@@ -7,7 +7,7 @@
   "growth_rate": 1.3,
   "soil_longevity": 12,
   "leaves_properties": "dtbwg:orange_birch",
-  "use_seed_of_other_species": "dtbwg:orange_birch",
+  "seed": "dtbwg:orange_birch_seed",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

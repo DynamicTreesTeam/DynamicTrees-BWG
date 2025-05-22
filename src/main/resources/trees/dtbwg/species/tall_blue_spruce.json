@@ -13,7 +13,7 @@
     }
   },
   "leaves_properties": "dtbwg:blue_spruce",
-  "use_seed_of_other_species": "dtbwg:blue_spruce",
+  "seed": "dtbwg:blue_spruce_seed",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,

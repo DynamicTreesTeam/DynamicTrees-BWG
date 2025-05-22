@@ -13,7 +13,7 @@
     }
   },
   "leaves_properties": "dtbwg:red_spruce",
-  "use_seed_of_other_species": "dtbwg:red_spruce",
+  "seed": "dtbwg:red_spruce_seed",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,

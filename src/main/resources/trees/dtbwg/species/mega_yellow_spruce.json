@@ -14,6 +14,7 @@
     }
   },
   "leaves_properties": "dtbwg:yellow_spruce",
+  "seed": "dtbwg:yellow_spruce_seed",
   "environment_factors" : {
     "#forge:is_hot": 0.50,
     "#forge:is_dry": 0.25,

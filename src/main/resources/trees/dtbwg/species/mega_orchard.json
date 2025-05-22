@@ -8,7 +8,7 @@
   "soil_longevity": 16,
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:orchard",
-  "use_seed_of_other_species": "dtbwg:orchard",
+  "seed": "dtbwg:orchard_seed",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

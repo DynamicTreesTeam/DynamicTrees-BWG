@@ -9,7 +9,7 @@
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:ancient_silver_maple",
   "growth_logic_kit": "dtbwg:ancient",
-  "use_seed_of_other_species": "dtbwg:silver_maple",
+  "seed": "dtbwg:silver_maple_seed",
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.9,

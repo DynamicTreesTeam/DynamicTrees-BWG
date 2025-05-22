@@ -17,6 +17,7 @@
     "name": ".*jacaranda.*"
   },
   "primitive_sapling": "biomeswevegone:indigo_jacaranda_sapling",
+  "seed": "dtbwg:indigo_jacaranda_seed",
   "features": [
     "bottom_flare",
     {

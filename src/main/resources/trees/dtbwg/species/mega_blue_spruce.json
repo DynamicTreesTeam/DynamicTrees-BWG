@@ -14,6 +14,7 @@
     }
   },
   "leaves_properties": "dtbwg:blue_spruce",
+  "seed": "dtbwg:blue_spruce_seed",
   "perfect_biomes": {
     "name": "biomeswevegone:frosted_taiga.*"
   },
