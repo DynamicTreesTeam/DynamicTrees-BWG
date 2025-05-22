@@ -21,13 +21,8 @@
     "apple"
   ],
   "features" : [
-    {
-      "name": "rot_soil",
-      "properties": {
-        "rotted_soil": "podzol"
-      }
-    },
-    "mushroom_rot",
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -35,8 +30,13 @@
         "scale_factor": 16
       }
     },
-    "bottom_flare",
-    "mound",
+    {
+      "name": "rot_soil",
+      "properties": {
+        "rotted_soil": "podzol"
+      }
+    },
+    "mushroom_rot",
     "bee_nest",
     {
       "name": "alt_leaves",

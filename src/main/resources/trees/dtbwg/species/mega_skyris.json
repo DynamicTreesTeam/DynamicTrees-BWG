@@ -26,6 +26,9 @@
     "dtbwg:green_apple"
   ],
   "features" : [
+    "clear_volume",
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -54,9 +57,6 @@
         "block": "biomeswevegone:skyris_vine"
       }
     },
-    "conifer_topper",
-    "bottom_flare",
-    "mound",
-    "clear_volume"
+    "conifer_topper"
   ]
 }

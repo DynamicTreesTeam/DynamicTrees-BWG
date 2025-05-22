@@ -19,6 +19,7 @@
   "primitive_sapling": "biomeswevegone:ebony_sapling",
   "features": [
     "dtbwg:big_bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -26,7 +27,6 @@
         "scale_factor": 24
       }
     },
-    "mound",
     "bee_nest"
   ],
   "lang_overrides": {

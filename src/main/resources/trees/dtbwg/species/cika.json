@@ -27,13 +27,8 @@
   "perfect_biomes": { "tag": "#forge:is_coniferous" },
   "features" : [
     "conifer_topper",
-    {
-      "name": "mound",
-      "properties": {
-        "mound_cutoff_radius": 999
-      }
-    },
-    "clear_volume"
+    "clear_volume",
+    "mound"
   ],
   "lang_overrides": {
     "seed": "Cika Cone"

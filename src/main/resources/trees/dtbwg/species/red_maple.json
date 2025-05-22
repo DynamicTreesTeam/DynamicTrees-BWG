@@ -20,15 +20,15 @@
   },
   "primitive_sapling": "biomeswevegone:red_maple_sapling",
   "features": [
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
         "min_trunk_radius": 8,
         "scale_factor": 16
       }
-    },
-    "bottom_flare",
-    "mound"
+    }
   ],
   "lang_overrides": {
     "seed": "Red Maple Samara"

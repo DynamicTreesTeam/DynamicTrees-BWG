@@ -18,6 +18,7 @@
   ],
   "mega_species": "dtbwg:mega_holly",
   "features" : [
+    "conifer_topper",
     {
       "name": "alt_leaves",
       "properties": {

@@ -26,13 +26,13 @@
   "features" : [
     "conifer_topper",
     "podzol",
+    "bottom_flare",
     {
       "name": "roots",
       "properties": {
         "min_trunk_radius": 8,
         "scale_factor": 12
       }
-    },
-    "bottom_flare"
+    }
   ]
 }

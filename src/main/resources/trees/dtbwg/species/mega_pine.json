@@ -18,6 +18,8 @@
   "perfect_biomes": { "tag": "#forge:is_coniferous" },
   "features" : [
     "conifer_topper",
+    "clear_volume",
+    "bottom_flare",
     {
       "name": "mound",
       "properties": {
@@ -31,8 +33,6 @@
         "scale_factor": 16
       }
     },
-    "bottom_flare",
-    "clear_volume",
     "podzol"
   ]
 }

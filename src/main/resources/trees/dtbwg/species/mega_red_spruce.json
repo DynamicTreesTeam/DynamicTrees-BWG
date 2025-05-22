@@ -22,13 +22,13 @@
   },
   "features" : [
     "conifer_topper",
+    "clear_volume",
     {
       "name": "mound",
       "properties": {
         "mound_cutoff_radius": 999
       }
     },
-    "clear_volume",
     "podzol"
   ],
   "mega_species": "dtbwg:giga_red_spruce"

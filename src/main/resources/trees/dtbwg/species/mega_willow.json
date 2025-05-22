@@ -21,6 +21,13 @@
   "primitive_sapling": "biomeswevegone:willow_sapling",
   "acceptable_soils": ["dirt_like", "water_like"],
   "features": [
+    "bottom_flare",
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    },
     {
       "name": "roots",
       "properties": {
@@ -28,13 +35,6 @@
         "scale_factor": 18
       }
     },
-    {
-      "name": "mound",
-      "properties": {
-        "mound_cutoff_radius": 999
-      }
-    },
-    "bottom_flare",
     {
       "name": "vines",
       "properties": {

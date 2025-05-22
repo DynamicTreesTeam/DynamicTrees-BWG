@@ -16,6 +16,9 @@
     "tag": "#minecraft:is_jungle"
   },
   "features": [
+    "clear_volume",
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -23,9 +26,6 @@
         "scale_factor": 23
       }
     },
-    "bottom_flare",
-    "mound",
-    "clear_volume",
     "bee_nest"
   ]
 }

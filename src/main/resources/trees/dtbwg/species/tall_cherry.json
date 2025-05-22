@@ -17,6 +17,6 @@
   },
   "common_override": { "name": "biomeswevegone:sakura_grove" },
   "features" : [
-        "bee_nest"
+    "bee_nest"
   ]
 }

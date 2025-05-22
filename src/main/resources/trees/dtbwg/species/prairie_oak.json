@@ -24,6 +24,8 @@
         "rotted_soil": "podzol"
       }
     },
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -31,8 +33,6 @@
         "scale_factor": 16
       }
     },
-    "bottom_flare",
-    "mound",
     "mushroom_rot",
     "bee_nest"
   ]

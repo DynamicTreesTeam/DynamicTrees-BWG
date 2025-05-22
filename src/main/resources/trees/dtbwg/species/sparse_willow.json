@@ -17,6 +17,7 @@
   "acceptable_soils": ["dirt_like", "water_like"],
   "mega_species": "dtbwg:mega_willow",
   "features": [
+    "bottom_flare",
     {
       "name": "roots",
       "properties": {
@@ -24,7 +25,6 @@
         "level_limit": 4,
         "scale_factor": 14
       }
-    },
-    "bottom_flare"
+    }
   ]
 }

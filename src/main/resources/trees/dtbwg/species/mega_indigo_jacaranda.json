@@ -20,6 +20,7 @@
   "seed": "dtbwg:indigo_jacaranda_seed",
   "features": [
     "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -27,7 +28,6 @@
         "scale_factor": 24
       }
     },
-    "mound",
     {
       "name": "alt_leaves",
       "properties": {

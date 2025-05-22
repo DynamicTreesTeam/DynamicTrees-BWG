@@ -23,6 +23,7 @@
   "world_gen_leaf_map_height": 70,
   "features" : [
     "conifer_topper",
+    "bottom_flare",
     {
       "name": "mound",
       "properties": {
@@ -36,7 +37,6 @@
       }
     },
     "clear_volume",
-    "podzol",
-    "bottom_flare"
+    "podzol"
   ]
 }

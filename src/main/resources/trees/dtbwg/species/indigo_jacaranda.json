@@ -21,6 +21,7 @@
   "primitive_sapling": "biomeswevegone:indigo_jacaranda_sapling",
   "features": [
     "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -28,7 +29,6 @@
         "scale_factor": 24
       }
     },
-    "mound",
     {
       "name": "alt_leaves",
       "properties": {

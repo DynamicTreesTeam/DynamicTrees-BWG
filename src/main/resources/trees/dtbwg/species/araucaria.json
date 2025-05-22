@@ -18,8 +18,8 @@
   "common_override": { "name": "biomeswevegone:.*araucaria.*" },
   "perfect_biomes": { "name": "biomeswevegone:.*araucaria.*" },
   "features": [
-    "mound",
     "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
