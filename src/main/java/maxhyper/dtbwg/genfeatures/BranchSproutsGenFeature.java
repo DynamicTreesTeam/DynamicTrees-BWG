@@ -32,6 +32,7 @@ public class BranchSproutsGenFeature extends GenFeature {
 
     public static final ConfigurationProperty<Block> SPROUT_BLOCK = ConfigurationProperty.property("sprout_block", Block.class);
     public static final ConfigurationProperty<Integer> MIN_RADIUS = ConfigurationProperty.integer("min_radius");
+    public static final ConfigurationProperty<Integer> MAX_RADIUS = ConfigurationProperty.integer("max_radius");
 
     public BranchSproutsGenFeature(ResourceLocation registryName) {
         super(registryName);
@@ -39,7 +40,7 @@ public class BranchSproutsGenFeature extends GenFeature {
 
     @Override
     protected void registerProperties() {
-        this.register(SPROUT_BLOCK,  FRUITING_RADIUS, PLACE_CHANCE, MAX_COUNT, MIN_RADIUS);
+        this.register(SPROUT_BLOCK,  FRUITING_RADIUS, PLACE_CHANCE, MAX_COUNT, MIN_RADIUS, MAX_RADIUS);
     }
 
     @Override
@@ -49,7 +50,8 @@ public class BranchSproutsGenFeature extends GenFeature {
                 .with(FRUITING_RADIUS, 8)
                 .with(PLACE_CHANCE, 0.05f)
                 .with(MAX_COUNT, 16)
-                .with(MIN_RADIUS, 8);
+                .with(MIN_RADIUS, 8)
+                .with(MAX_RADIUS, 12);
     }
 
     @Override
@@ -85,7 +87,7 @@ public class BranchSproutsGenFeature extends GenFeature {
 
     private void placeSprouts (int count, GenFeatureConfiguration configuration, LevelAccessor world, BlockPos rootPos){
         List<Pair<BlockPos, Direction>> validSpots = new LinkedList<>();
-        final FindSidedBlockNode sproutPlacer = new FindSidedBlockNode(validSpots, configuration.get(MIN_RADIUS));
+        final FindSidedBlockNode sproutPlacer = new FindSidedBlockNode(validSpots, configuration.get(MIN_RADIUS), configuration.get(MAX_RADIUS));
         TreeHelper.startAnalysisFromRoot(world, rootPos, new MapSignal(sproutPlacer));
 
         if (!validSpots.isEmpty()){
@@ -105,16 +107,18 @@ public class BranchSproutsGenFeature extends GenFeature {
 
         private final List<Pair<BlockPos, Direction>> validSpots;
         private final int minRadius;
+        private final int maxRadius;
 
-        public FindSidedBlockNode(List<Pair<BlockPos, Direction>> spots, int minRadius) {
+        public FindSidedBlockNode(List<Pair<BlockPos, Direction>> spots, int minRadius, int maxRadius) {
             validSpots = spots;
             this.minRadius = minRadius;
+            this.maxRadius = maxRadius;
         }
 
         @Override
         public boolean run(BlockState blockState, LevelAccessor world, BlockPos pos, Direction fromDir) {
             int radius = TreeHelper.getRadius(world, pos);
-                if (TreeHelper.isBranch(blockState) && radius >= minRadius) {
+                if (TreeHelper.isBranch(blockState) && radius >= minRadius && radius <= maxRadius) {
                     boolean found = false;
                     for (Direction dir : CoordUtils.HORIZONTALS){
                         BlockPos offsetPos = pos.offset(dir.getNormal());

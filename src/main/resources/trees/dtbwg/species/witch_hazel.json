@@ -36,7 +36,8 @@
     {
       "name": "dtbwg:branch_sprouts",
       "properties": {
-        "sprout_block": "dtbwg:witch_hazel_side_branch"
+        "sprout_block": "dtbwg:witch_hazel_side_branch",
+        "max_radius": 16
       }
     }
   ],
