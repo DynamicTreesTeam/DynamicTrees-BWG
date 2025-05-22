@@ -12,5 +12,8 @@
     "branch_top": "biomeswevegone:block/florus/stem_top",
     "stripped_branch": "biomeswevegone:block/florus/stripped_stem",
     "stripped_branch_top": "biomeswevegone:block/florus/stripped_stem_top"
+  },
+  "lang_overrides": {
+    "branch": "Giant Flower"
   }
 }
