@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-22T12:17:12.9103126	Block States: dtbwg
+// 1.20.1	2025-05-22T13:10:49.2536507	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -22,6 +22,7 @@ efcc5b58ffcfd4c480c1add4068c120e1db942b5 assets/dtbwg/blockstates/blue_spruce_sa
 83bceea932d49e656cd93de411590845c2ad0611 assets/dtbwg/blockstates/brown_mushroom_branch.json
 c0a3bc859f4d1f61fbb0f5b61815b042f3bff86f assets/dtbwg/blockstates/brown_zelkova_leaves.json
 8640b0f0fc090ba75be592805b68b5a50a9552fb assets/dtbwg/blockstates/brown_zelkova_sapling.json
+22189459d4fa383ebe3c902b33ee2c18870d8776 assets/dtbwg/blockstates/canopy_dark_oak_leaves.json
 9b73d2419e07259eb9681640ac018a6aeb7e7e93 assets/dtbwg/blockstates/canopy_oak_leaves.json
 828b7f33ecec721ed3dd79bd9e3a83ef6cd0faa1 assets/dtbwg/blockstates/cika_branch.json
 2322e9d329ed356822169f375a5d0f4f708f5739 assets/dtbwg/blockstates/cika_leaves.json

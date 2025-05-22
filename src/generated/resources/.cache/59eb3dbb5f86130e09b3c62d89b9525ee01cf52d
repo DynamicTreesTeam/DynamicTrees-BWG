@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-22T12:17:12.9134983	Loot Tables
+// 1.20.1	2025-05-22T13:10:49.2587009	Loot Tables
 8c88c8a74b42e9e6b8223cdc6ec6f35ef3ab8752 data/dtbwg/loot_tables/blocks/allium_leaves.json
 c8fa2e65eef15787197e76bca3a77d2557efb40a data/dtbwg/loot_tables/blocks/ancient_ebony_leaves.json
 6f3de234e3bb44f79c8b6bbf627bca383a4188cc data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
@@ -12,6 +12,7 @@ b3efc19316c4b56e2e4d91d4dec99d35c3c566b1 data/dtbwg/loot_tables/blocks/baobab_le
 f2537a848749a4c35bb24dbe75183cd17b915872 data/dtbwg/loot_tables/blocks/blue_enchanted_leaves.json
 9cce6d6999993721f95132f56d84f00fc56f8fde data/dtbwg/loot_tables/blocks/blue_spruce_leaves.json
 11916872d619460f747e4d1495bad6ce0c7eb913 data/dtbwg/loot_tables/blocks/brown_zelkova_leaves.json
+f01d6a8f3d71316e86bb5a33bfd34bb546d38757 data/dtbwg/loot_tables/blocks/canopy_dark_oak_leaves.json
 9b11a841b73617e3b993825aa074e8cc16a9cee0 data/dtbwg/loot_tables/blocks/canopy_oak_leaves.json
 357a7d2e469c0b9815b3100a64c26f20d0a0c7ea data/dtbwg/loot_tables/blocks/cika_leaves.json
 c82ed76c269a0d2eb674fedac9befcb5dbbb108d data/dtbwg/loot_tables/blocks/cypress_leaves.json
@@ -140,6 +141,7 @@ e520592241c04e4997386f6e086e00f842e25cdd data/dtbwg/loot_tables/trees/leaves/bao
 632fe8894c3327f0630f83b0cc3e310a5aa9d179 data/dtbwg/loot_tables/trees/leaves/blue_enchanted.json
 f8f5978dc287c89f62ef5b3c4674704bb9db2bcc data/dtbwg/loot_tables/trees/leaves/blue_spruce.json
 5359740e3bbfa369e48f6db17075e38d206aa677 data/dtbwg/loot_tables/trees/leaves/brown_zelkova.json
+494226e181b6031103913c737744cf06bd660bf1 data/dtbwg/loot_tables/trees/leaves/canopy_dark_oak.json
 42c8c8d72ba944beb616d2b38f9a8d4c3dd5b959 data/dtbwg/loot_tables/trees/leaves/canopy_oak.json
 8edf00f2edda0170aa8ca5e50ca1b0e0fd03417e data/dtbwg/loot_tables/trees/leaves/cika.json
 2e3fcad06af3e4d75aa594a2a025a7bd273a4db7 data/dtbwg/loot_tables/trees/leaves/cypress.json
