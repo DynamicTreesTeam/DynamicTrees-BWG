@@ -31,15 +31,6 @@
                 "height": 6
             }
         },
-        {
-            "name": "dtbwg:lush_vines",
-            "properties": {
-                "block": "cave_vines_plant",
-                "tip_block": "cave_vines",
-                "max_length": 6,
-                "berries_chance": 3
-            }
-        },
         "mound"
     ]
 }
