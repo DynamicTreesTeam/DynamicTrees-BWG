@@ -102,8 +102,9 @@ sourceSets.main.get().resources {
 dependencies {
     minecraft("net.minecraftforge:forge:${mcVersion}-${property("forgeVersion")}")
 
-    implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
+    //implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
     //implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
+    implementation(fg.deobf("curse.maven:dynamictrees-252818:6560132"))
     implementation(fg.deobf("curse.maven:dynamictreesplus-478155:6540795"))
 
     runtimeOnly(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.10"))
