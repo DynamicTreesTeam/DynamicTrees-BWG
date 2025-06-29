@@ -10,7 +10,7 @@
   "perfect_biomes": {
     "name": "biomeswevegone:allium.*"
   },
-  "primitive_sapling": "biomeswevegone:white_tall_allium",
+  "primitive_sapling": "biomeswevegone:tall_white_allium",
   "lang_overrides": {
     "species": "Giant White Allium",
     "seed": "Giant White Allium Seeds"

@@ -1,22 +1,22 @@
 {
   "values": [
-    "dtbwg:rooty_podzol_dacite",
-    "dtbwg:rooty_peat",
     "dtbwg:rooty_black_sand",
-    "dtbwg:rooty_overgrown_stone",
-    "dtbwg:rooty_sandy_dirt",
     "dtbwg:rooty_blue_sand",
-    "dtbwg:rooty_white_sand",
-    "dtbwg:rooty_lush_dirt",
-    "dtbwg:rooty_cracked_sand",
-    "dtbwg:rooty_overgrown_dacite",
-    "dtbwg:rooty_windswept_sand",
     "dtbwg:rooty_cracked_red_sand",
+    "dtbwg:rooty_cracked_sand",
+    "dtbwg:rooty_lush_dirt",
+    "dtbwg:rooty_lush_dirt",
+    "dtbwg:rooty_lush_grass_block",
+    "dtbwg:rooty_overgrown_dacite",
+    "dtbwg:rooty_overgrown_stone",
+    "dtbwg:rooty_peat",
+    "dtbwg:rooty_pink_sand",
+    "dtbwg:rooty_podzol_dacite",
     "dtbwg:rooty_purple_sand",
     "dtbwg:rooty_sandy_dirt",
-    "dtbwg:rooty_lush_dirt",
-    "dtbwg:rooty_pink_sand",
-    "dtbwg:rooty_lush_grass_block",
-    "dtbwg:rooty_white_mangrove_aerial_roots"
+    "dtbwg:rooty_sandy_dirt",
+    "dtbwg:rooty_white_mangrove_aerial_roots",
+    "dtbwg:rooty_white_sand",
+    "dtbwg:rooty_windswept_sand"
   ]
 }

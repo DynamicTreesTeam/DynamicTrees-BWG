@@ -10,7 +10,7 @@
   "perfect_biomes": {
     "name": "biomeswevegone:allium.*"
   },
-  "primitive_sapling": "biomeswevegone:pink_tall_allium",
+  "primitive_sapling": "biomeswevegone:tall_pink_allium",
   "lang_overrides": {
     "species": "Giant Pink Allium",
     "seed": "Giant Pink Allium Seeds"

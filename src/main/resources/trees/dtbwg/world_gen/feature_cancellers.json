@@ -13,7 +13,7 @@
     "select": { "tag": "#(minecraft:is_badlands)|(forge:is_desert)", "name": "biomeswevegone.*" },
     "cancellers": {
       "types": [ "dtbwg:tree", "tree", "dynamictreesplus:cactus" ],
-      "namespace": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow", "minecraft"]
+      "namespaces": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow", "minecraft"]
     }
   }
 ]
