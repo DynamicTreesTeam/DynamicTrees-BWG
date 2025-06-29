@@ -258,6 +258,22 @@
   },
   {
     "select": {
+      "name": "biomeswevegone:cypress_wetlands"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:cypress": 3,
+          "dtbwg:mega_cypress": 1,
+          "dynamictrees:oak_undergrowth": 12
+        }
+      },
+      "density": [ 0.6 ],
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
       "name": "biomeswevegone:dacite_ridges"
     },
     "apply": {
@@ -525,6 +541,38 @@
       },
       "density": [ 1 ],
       "chance": 1
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:red_rock_peaks"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:pine": 8,
+          "dtbwg:mega_pine": 3,
+          "dtbwg:ironwood": 1
+        }
+      },
+      "density": [ 0.5 ],
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:red_rock_valley"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:palo_verde": 3,
+          "dtbwg:pine": 3,
+          "dtbwg:mega_pine": 1
+        }
+      },
+      "density": [ 0.2 ],
+      "chance": 0.3
     }
   },
   {
