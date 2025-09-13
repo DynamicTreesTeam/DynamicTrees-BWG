@@ -1,6 +1,6 @@
 package maxhyper.dtbwg.cells;
 
-import com.ferreusveritas.dynamictrees.util.SimpleVoxmap;
+import com.dtteam.dynamictrees.api.voxmap.SimpleVoxmap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 

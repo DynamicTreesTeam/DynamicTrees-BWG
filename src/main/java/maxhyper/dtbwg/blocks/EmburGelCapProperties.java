@@ -1,11 +1,11 @@
 package maxhyper.dtbwg.blocks;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.systems.poissondisc.Vec2i;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.DynamicCapBlock;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.DynamicCapCenterBlock;
-import com.ferreusveritas.dynamictreesplus.systems.mushroomlogic.MushroomCapDisc;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.systems.poissondisc.Vec2i;
+import com.dtteam.dynamictreesplus.block.mushroom.CapProperties;
+import com.dtteam.dynamictreesplus.block.mushroom.DynamicCapBlock;
+import com.dtteam.dynamictreesplus.block.mushroom.DynamicCapCenterBlock;
+import com.dtteam.dynamictreesplus.systems.mushroomlogic.MushroomCapDisc;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
@@ -42,7 +42,7 @@ public class EmburGelCapProperties extends CapProperties {
 
     @Override
     public BlockBehaviour.Properties getDefaultBlockProperties(MapColor mapColor) {
-        return BlockBehaviour.Properties.copy(Blocks.CLAY).mapColor(MapColor.TERRACOTTA_YELLOW).sound(SoundType.HONEY_BLOCK).noOcclusion().speedFactor(1.3f);
+        return BlockBehaviour.Properties.ofFullCopy(Blocks.CLAY).mapColor(MapColor.TERRACOTTA_YELLOW).sound(SoundType.HONEY_BLOCK).noOcclusion().speedFactor(1.3f);
     }
 
     @Override

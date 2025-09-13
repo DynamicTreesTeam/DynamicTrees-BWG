@@ -1,18 +1,17 @@
 package maxhyper.dtbwg.genfeatures;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
-import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
-import com.ferreusveritas.dynamictrees.api.network.MapSignal;
-import com.ferreusveritas.dynamictrees.block.branch.BranchBlock;
-import com.ferreusveritas.dynamictrees.block.leaves.DynamicLeavesBlock;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGenerationContext;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGrowContext;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
-import com.ferreusveritas.dynamictrees.systems.nodemapper.FindEndsNode;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.util.CoordUtils;
-import com.ferreusveritas.dynamictrees.util.SafeChunkBounds;
+import com.dtteam.dynamictrees.tree.TreeHelper;
+import com.dtteam.dynamictrees.api.configuration.ConfigurationProperty;
+import com.dtteam.dynamictrees.api.network.MapSignal;
+import com.dtteam.dynamictrees.block.branch.BranchBlock;
+import com.dtteam.dynamictrees.block.leaves.DynamicLeavesBlock;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGenerationContext;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGrowContext;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeature;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeatureConfiguration;
+import com.dtteam.dynamictrees.systems.nodemapper.FindEndsNode;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.utility.CoordUtils;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
@@ -72,7 +71,7 @@ public class LushVinesGenFeature extends GenFeature {
 
         for (int i = 0; i < quantity; i++) {
             final BlockPos endPoint = context.endPoints().get(context.random().nextInt(context.endPoints().size()));
-            this.addVerticalVines(configuration, context.level(), context.species(), context.pos(), endPoint, context.bounds(), true);
+            this.addVerticalVines(configuration, context.level(), context.species(), context.pos(), endPoint, true);
         }
 
         return true;
@@ -102,7 +101,7 @@ public class LushVinesGenFeature extends GenFeature {
                 if (!endPoints.isEmpty()) {
                     for (int i = 0; i < qty; i++) {
                         BlockPos endPoint = endPoints.get(level.getRandom().nextInt(endPoints.size()));
-                        this.addVerticalVines(configuration, level, species, rootPos, endPoint, SafeChunkBounds.ANY, false);
+                        this.addVerticalVines(configuration, level, species, rootPos, endPoint, false);
                     }
                     return true;
                 }
@@ -112,10 +111,10 @@ public class LushVinesGenFeature extends GenFeature {
         return true;
     }
 
-    protected void addVerticalVines(GenFeatureConfiguration configuration, LevelAccessor level, Species species, BlockPos rootPos, BlockPos branchPos, SafeChunkBounds safeBounds, boolean worldgen) {
-        BlockPos vinePos = CoordUtils.getRayTraceFruitPos(level, species, rootPos, branchPos, safeBounds);
+    protected void addVerticalVines(GenFeatureConfiguration configuration, LevelAccessor level, Species species, BlockPos rootPos, BlockPos branchPos, boolean worldgen) {
+        BlockPos vinePos = CoordUtils.getRayTraceFruitPos(level, species, rootPos, branchPos, worldgen);
 
-        if (!safeBounds.inBounds(vinePos, true) || vinePos == BlockPos.ZERO) {
+        if (!worldgen || vinePos == BlockPos.ZERO) {
             return;
         }
 

@@ -1,10 +1,10 @@
 package maxhyper.dtbwg.genfeatures;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
-import com.ferreusveritas.dynamictrees.systems.genfeature.BottomFlareGenFeature;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.tree.TreeHelper;
+import com.dtteam.dynamictrees.systems.genfeature.BottomFlareGenFeature;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeatureConfiguration;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;

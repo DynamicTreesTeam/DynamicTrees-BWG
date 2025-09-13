@@ -1,12 +1,12 @@
 //package maxhyper.dtbwg.blocks;
 //
-//import com.ferreusveritas.dynamictrees.api.TreeHelper;
-//import com.ferreusveritas.dynamictrees.api.data.WaterRootGenerator;
-//import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-//import com.ferreusveritas.dynamictrees.block.branch.BranchBlock;
-//import com.ferreusveritas.dynamictrees.block.rooty.RootyBlock;
-//import com.ferreusveritas.dynamictrees.block.rooty.SoilProperties;
-//import com.ferreusveritas.dynamictrees.init.DTConfigs;
+//import com.dtteam.dynamictrees.tree.TreeHelper;
+//import com.dtteam.dynamictrees.api.data.WaterRootGenerator;
+//import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+//import com.dtteam.dynamictrees.block.branch.BranchBlock;
+//import com.dtteam.dynamictrees.block.rooty.RootyBlock;
+//import com.dtteam.dynamictrees.block.rooty.SoilProperties;
+//import com.dtteam.dynamictrees.init.DTConfigs;
 //import net.minecraft.core.BlockPos;
 //import net.minecraft.core.Direction;
 //import net.minecraft.resources.ResourceLocation;

@@ -1,9 +1,10 @@
 package maxhyper.dtbwg.cancellers;
 
-import com.ferreusveritas.dynamictrees.api.worldgen.BiomePropertySelectors;
-import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
-import com.ferreusveritas.dynamictrees.util.RandomXOR;
+import com.dtteam.dynamictrees.api.worldgen.BiomePropertySelectors;
+import com.dtteam.dynamictrees.api.worldgen.FeatureCanceller;
+import com.dtteam.dynamictrees.api.worldgen.RandomXOR;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +16,6 @@ import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConf
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.stateproviders.SimpleStateProvider;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraftforge.registries.ForgeRegistries;
 
 /**
  * @author Max Hyper
@@ -33,7 +33,7 @@ public class CactusFeatureCanceller<T extends Block> extends FeatureCanceller {
 
     @Override
     public boolean shouldCancel(ConfiguredFeature<?, ?> configuredFeature, BiomePropertySelectors.NormalFeatureCancellation featureCancellations) {
-        final ResourceLocation featureRegistryName = ForgeRegistries.FEATURES.getKey(configuredFeature.feature());
+        final ResourceLocation featureRegistryName = BuiltInRegistries.FEATURE.getKey(configuredFeature.feature());
 
         if (featureRegistryName == null)
             return false;

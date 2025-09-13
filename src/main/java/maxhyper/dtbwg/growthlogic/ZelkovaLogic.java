@@ -1,10 +1,11 @@
 package maxhyper.dtbwg.growthlogic;
 
-import com.ferreusveritas.dynamictrees.growthlogic.ConiferLogic;
-import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKitConfiguration;
-import com.ferreusveritas.dynamictrees.growthlogic.context.PositionalSpeciesContext;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.util.CoordUtils;
+import com.dtteam.dynamictrees.systems.growthlogic.ConiferLogic;
+import com.dtteam.dynamictrees.systems.growthlogic.GrowthLogicKitConfiguration;
+import com.dtteam.dynamictrees.systems.growthlogic.context.PositionalSpeciesContext;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.utility.CoordUtils;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 

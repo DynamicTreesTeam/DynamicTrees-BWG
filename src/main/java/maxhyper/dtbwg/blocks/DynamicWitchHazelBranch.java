@@ -1,6 +1,6 @@
 package maxhyper.dtbwg.blocks;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
+import com.dtteam.dynamictrees.tree.TreeHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.LevelReader;

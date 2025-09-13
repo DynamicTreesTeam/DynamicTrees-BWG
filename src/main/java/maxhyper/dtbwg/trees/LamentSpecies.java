@@ -1,23 +1,26 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.DynamicSaplingBlock;
-import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
-import com.ferreusveritas.dynamictrees.item.Seed;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.worldgen.GenerationContext;
+import com.dtteam.dynamictrees.api.registry.RegistryHandler;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
+import com.dtteam.dynamictrees.block.sapling.DynamicSaplingBlock;
+import com.dtteam.dynamictrees.item.Seed;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.worldgen.DynamicTreeGenerationContext;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.structure.Structure.GenerationContext;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 
@@ -43,7 +46,7 @@ public class LamentSpecies extends Species {
     }
 
     @Override
-    public boolean generate(GenerationContext context) {
+    public boolean generate(DynamicTreeGenerationContext context) {
         LevelAccessor level = context.level();
         BlockPos rootPos = context.rootPos();
         if (altSpecies.isAcceptableSoilForWorldgen(level, rootPos, level.getBlockState(rootPos)))
@@ -70,21 +73,8 @@ public class LamentSpecies extends Species {
     @Override
     public Species generateSeed() {
         return !this.shouldGenerateSeed() || this.seed != null ? this :
-                this.setSeed(RegistryHandler.addItem(getSeedName(), ()->new Seed(this){
-                            @Override
-                            public boolean isFireResistant() {
-                                return true;
-                            }
-
-//                            @Override
-//                            public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
-//                                BlockRayTraceResult rayTraceResult = getPlayerPOVHitResult(world, player, RayTraceContext.FluidMode.SOURCE_ONLY);
-//                                BlockRayTraceResult rayTraceResultUp = rayTraceResult.withPosition(rayTraceResult.getBlockPos().above());
-//                                ActionResultType actionresulttype = super.useOn(new ItemUseContext(player, hand, rayTraceResult.getDirection() == Direction.UP ? rayTraceResultUp : rayTraceResult));
-//                                return new ActionResult<>(actionresulttype, player.getItemInHand(hand));
-//                            }
-                        }
-                ));
+                this.setSeed(RegistryHandler.addItem(getSeedName(), () -> new Seed(this, new Item.Properties().fireResistant()) {
+                }));
     }
 
     @Override

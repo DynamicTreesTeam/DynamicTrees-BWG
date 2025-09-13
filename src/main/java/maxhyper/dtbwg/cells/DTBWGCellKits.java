@@ -1,12 +1,12 @@
 package maxhyper.dtbwg.cells;
 
-import com.ferreusveritas.dynamictrees.api.cell.Cell;
-import com.ferreusveritas.dynamictrees.api.cell.CellKit;
-import com.ferreusveritas.dynamictrees.api.cell.CellNull;
-import com.ferreusveritas.dynamictrees.api.cell.CellSolver;
-import com.ferreusveritas.dynamictrees.api.registry.Registry;
-import com.ferreusveritas.dynamictrees.cell.*;
-import com.ferreusveritas.dynamictrees.util.SimpleVoxmap;
+import com.dtteam.dynamictrees.api.cell.Cell;
+import com.dtteam.dynamictrees.api.cell.CellKit;
+import com.dtteam.dynamictrees.api.cell.CellNull;
+import com.dtteam.dynamictrees.api.cell.CellSolver;
+import com.dtteam.dynamictrees.api.registry.Registry;
+import com.dtteam.dynamictrees.api.voxmap.SimpleVoxmap;
+import com.dtteam.dynamictrees.systems.cell.*;
 import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.cells.cell.*;
 import net.minecraft.core.Direction;
@@ -18,7 +18,7 @@ public class DTBWGCellKits {
         registry.registerAll(PALM, SPARSE, POPLAR, SMALL_DECIDUOUS, WILLOW, ROUND_CONIFER, SYTHIAN_FUNGUS, LAMENT, SKYRIS, ALLIUM, ROSE);
     }
 
-    public static final CellKit PALM = new CellKit(new ResourceLocation(DynamicTreesBWG.MOD_ID, "palm")) {
+    public static final CellKit PALM = new CellKit(DynamicTreesBWG.location("palm")) {
 
         private final Cell palmBranch = new Cell() {
             @Override
@@ -73,7 +73,7 @@ public class DTBWGCellKits {
 
     };
 
-    public static final CellKit SPARSE = new CellKit(new ResourceLocation(DynamicTreesBWG.MOD_ID, "sparse")) {
+    public static final CellKit SPARSE = new CellKit(DynamicTreesBWG.location("sparse")) {
 
         private final Cell sparseBranch = new SparseBranchCell();
         private final Cell sparseLeaves = new NormalCell(1);
@@ -107,7 +107,7 @@ public class DTBWGCellKits {
 
     };
 
-    public static final CellKit POPLAR = new CellKit(new ResourceLocation(DynamicTreesBWG.MOD_ID, "poplar")) {
+    public static final CellKit POPLAR = new CellKit(DynamicTreesBWG.location("poplar")) {
 
         private final Cell poplarBranch = new PoplarBranchCell();
         private final Cell poplarTopBranch = new PoplarTopBranchCell();
@@ -155,7 +155,7 @@ public class DTBWGCellKits {
 
     };
 
-    public static final CellKit SMALL_DECIDUOUS = new CellKit(new ResourceLocation(DynamicTreesBWG.MOD_ID, "small_deciduous")) {
+    public static final CellKit SMALL_DECIDUOUS = new CellKit(DynamicTreesBWG.location("small_deciduous")) {
 
         private final Cell sparseBranch = new NormalCell(4);
         private final Cell sparseLeaves = new NormalCell(1);

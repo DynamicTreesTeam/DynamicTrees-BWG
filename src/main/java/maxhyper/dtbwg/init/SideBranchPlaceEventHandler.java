@@ -1,6 +1,6 @@
 package maxhyper.dtbwg.init;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
+import com.dtteam.dynamictrees.tree.TreeHelper;
 import com.google.common.collect.ImmutableMap;
 import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.blocks.DynamicWitchHazelBranch;
@@ -17,9 +17,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.potionstudios.biomeswevegone.world.level.block.BWGBlocks;
 import net.potionstudios.biomeswevegone.world.level.block.plants.tree.branch.TreeBranchBlock;
 
@@ -27,7 +27,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.function.Supplier;
 
-@Mod.EventBusSubscriber(modid = DynamicTreesBWG.MOD_ID)
+@EventBusSubscriber(modid = DynamicTreesBWG.MOD_ID)
 public class SideBranchPlaceEventHandler {
 
     static final Map<Supplier<TreeBranchBlock>, Supplier<DynamicWitchHazelBranch>> branches = ImmutableMap.<Supplier<TreeBranchBlock>, Supplier<DynamicWitchHazelBranch>>builder()

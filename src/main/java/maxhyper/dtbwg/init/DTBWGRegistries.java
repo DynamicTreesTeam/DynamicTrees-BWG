@@ -1,23 +1,20 @@
 package maxhyper.dtbwg.init;
 
-import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
-import com.ferreusveritas.dynamictrees.api.cell.CellKit;
-import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
-import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
-import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
-import com.ferreusveritas.dynamictrees.init.DTConfigs;
-import com.ferreusveritas.dynamictrees.systems.BranchConnectables;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.util.CommonVoxelShapes;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
-import com.ferreusveritas.dynamictreesplus.systems.mushroomlogic.shapekits.MushroomShapeKit;
+import com.dtteam.dynamictrees.api.registry.RegistryHandler;
+import com.dtteam.dynamictrees.api.worldgen.FeatureCanceller;
+import com.dtteam.dynamictrees.block.CommonVoxelShapes;
+import com.dtteam.dynamictrees.event.RegistryEvent;
+import com.dtteam.dynamictrees.event.TypeRegistryEvent;
+import com.dtteam.dynamictrees.systems.BranchConnectables;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeature;
+import com.dtteam.dynamictrees.systems.growthlogic.GrowthLogicKit;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.api.cell.CellKit;
+import com.dtteam.dynamictreesplus.block.mushroom.CapProperties;
+import com.dtteam.dynamictreesplus.systems.mushroomlogic.shapekits.MushroomShapeKit;
 import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.blocks.*;
-import maxhyper.dtbwg.blocks.DynamicWitchHazelBranch;
-import maxhyper.dtbwg.trees.DiagonalPalmFamily;
-import maxhyper.dtbwg.trees.ImbuedLogFamily;
 import maxhyper.dtbwg.cancellers.BWGTreeFeatureCanceller;
 import maxhyper.dtbwg.genfeatures.DTBWGGenFeatures;
 import maxhyper.dtbwg.cells.DTBWGCellKits;
@@ -28,14 +25,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.potionstudios.biomeswevegone.world.level.block.BWGBlocks;
 import dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfig;
 
 import java.util.function.Supplier;
 
-@Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(bus=EventBusSubscriber.Bus.MOD)
 public class DTBWGRegistries {
 
     private static VoxelShape box(double p_49797_, double p_49798_, double p_49799_, double p_49800_, double p_49801_, double p_49802_) {
@@ -94,18 +91,24 @@ public class DTBWGRegistries {
     }
 
     @SubscribeEvent
-    public static void onGenFeatureRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GenFeature> event) {
-        DTBWGGenFeatures.register(event.getRegistry());
+    public static void registerGenFeature (final RegistryEvent<GenFeature> event) {
+        if (event.isEntryOfType(GenFeature.class)) {
+            DTBWGGenFeatures.register(event.getRegistry());
+        }
     }
 
     @SubscribeEvent
-    public static void onCellKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<CellKit> event) {
-        DTBWGCellKits.register(event.getRegistry());
+    public static void registerCells (final RegistryEvent<CellKit> event) {
+        if (event.isEntryOfType(CellKit.class)) {
+            DTBWGCellKits.register(event.getRegistry());
+        }
     }
 
     @SubscribeEvent
-    public static void onGrowthLogicKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GrowthLogicKit> event) {
-        DTBWGGrowthLogicKits.register(event.getRegistry());
+    public static void registerGrowthLogic (final RegistryEvent<GrowthLogicKit> event) {
+        if (event.isEntryOfType(GrowthLogicKit.class)) {
+            DTBWGGrowthLogicKits.register(event.getRegistry());
+        }
     }
 
     @SubscribeEvent
@@ -136,8 +139,10 @@ public class DTBWGRegistries {
     }
 
     @SubscribeEvent
-    public static void onMushroomShapeKitRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<MushroomShapeKit> event) {
-        BWGMushroomShapeKits.register(event.getRegistry());
+    public static void registerMushroomShape (final RegistryEvent<MushroomShapeKit> event) {
+        if (event.isEntryOfType(MushroomShapeKit.class)) {
+            BWGMushroomShapeKits.register(event.getRegistry());
+        }
     }
 
     public static final FeatureCanceller biomeswevegone_TREE_CANCELLER = new BWGTreeFeatureCanceller<>(DynamicTreesBWG.location("tree"), TreeFromStructureNBTConfig.class);
@@ -145,8 +150,10 @@ public class DTBWGRegistries {
 //    public static final FeatureCanceller GIANT_FLOWER_CANCELLER = new TreeFeatureCanceller<>(DynamicTreesBWG.location("giant_flower"), GiantFlowerConfig.class);
 //
     @SubscribeEvent
-    public static void onFeatureCancellerRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<FeatureCanceller> event) {
-        event.getRegistry().registerAll(biomeswevegone_TREE_CANCELLER);
+    public static void registerFeatureCanceller (final RegistryEvent<FeatureCanceller> event) {
+        if (event.isEntryOfType(FeatureCanceller.class)) {
+            event.getRegistry().registerAll(biomeswevegone_TREE_CANCELLER);
+        }
 //        event.getRegistry().registerAll(biomeswevegone_FUNGUS_CANCELLER);
 //        event.getRegistry().registerAll(GIANT_FLOWER_CANCELLER);
     }
