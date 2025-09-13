@@ -1,26 +1,26 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.branch.BasicBranchBlock;
-import com.ferreusveritas.dynamictrees.block.branch.BranchBlock;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.util.BlockBounds;
-import com.ferreusveritas.dynamictrees.util.BlockStates;
-import com.ferreusveritas.dynamictrees.util.SimpleVoxmap;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.DynamicCapBlock;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.DynamicCapCenterBlock;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.MushroomBranchBlock;
-import com.ferreusveritas.dynamictreesplus.systems.mushroomlogic.context.MushroomCapContext;
-import com.ferreusveritas.dynamictreesplus.tree.HugeMushroomFamily;
-import com.ferreusveritas.dynamictreesplus.tree.HugeMushroomSpecies;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.api.voxmap.BlockPosBounds;
+import com.dtteam.dynamictrees.api.voxmap.SimpleVoxmap;
+import com.dtteam.dynamictrees.block.branch.BasicBranchBlock;
+import com.dtteam.dynamictrees.block.branch.BranchBlock;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictreesplus.block.mushroom.CapProperties;
+import com.dtteam.dynamictreesplus.block.mushroom.DynamicCapBlock;
+import com.dtteam.dynamictreesplus.block.mushroom.DynamicCapCenterBlock;
+import com.dtteam.dynamictreesplus.block.mushroom.MushroomBranchBlock;
+import com.dtteam.dynamictreesplus.systems.mushroomlogic.context.MushroomCapContext;
+import com.dtteam.dynamictreesplus.tree.HugeMushroomFamily;
+import com.dtteam.dynamictreesplus.tree.HugeMushroomSpecies;
 import maxhyper.dtbwg.blocks.WartyCapProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
@@ -50,7 +50,7 @@ public class WartyMushroomFamily extends HugeMushroomFamily {
                }
 
                // Make a bounding volume that holds all the endpoints and expand the volume for the leaves' radius.
-               final BlockBounds bounds = getFamily().expandLeavesBlockBounds(new BlockBounds(endPoints));
+               final BlockPosBounds bounds = getFamily().expandLeavesBlockBounds(new BlockPosBounds(endPoints));
 
                // Create a voxmap to store the leaf destruction map.
                final SimpleVoxmap capMap = new SimpleVoxmap(bounds);
@@ -72,7 +72,7 @@ public class WartyMushroomFamily extends HugeMushroomFamily {
                final List<ItemStack> dropList = new ArrayList<>();
 
                // Destroy all family compatible leaves.
-               for (final SimpleVoxmap.Cell cell : capMap.getAllNonZeroCells()) {
+               for (final SimpleVoxmap.VoxmapCell cell : capMap.getAllNonZeroCells()) {
                    final BlockPos.MutableBlockPos pos = cell.getPos();
                    final BlockState state = level.getBlockState(pos);
                    if (family.isCompatibleCap(mushSpecies, state, level, pos)) {
@@ -85,7 +85,7 @@ public class WartyMushroomFamily extends HugeMushroomFamily {
                        dropList.addAll(cap.getDrops(level, pos, tool, species));
                        final BlockPos imPos = pos.immutable(); // We are storing this so it must be immutable
                        final BlockPos relPos = imPos.subtract(cutPos);
-                       level.setBlock(imPos, BlockStates.AIR, 3);
+                       level.setBlock(imPos, Blocks.AIR.defaultBlockState(), 3);
                        if (shroomlightBlock != null){
                            BlockState upState = level.getBlockState(imPos.above());
                            BlockState downState = level.getBlockState(imPos.below());

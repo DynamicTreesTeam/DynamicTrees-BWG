@@ -1,10 +1,10 @@
 package maxhyper.dtbwg.genfeatures;
 
-import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
-import com.ferreusveritas.dynamictrees.systems.genfeature.AlternativeLeavesGenFeature;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGenerationContext;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGrowContext;
+import com.dtteam.dynamictrees.api.configuration.ConfigurationProperty;
+import com.dtteam.dynamictrees.systems.genfeature.AlternativeLeavesGenFeature;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeatureConfiguration;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGenerationContext;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGrowContext;
 import net.minecraft.resources.ResourceLocation;
 
 public class AlternativeLeavesWithHeightLimitGenFeature extends AlternativeLeavesGenFeature {

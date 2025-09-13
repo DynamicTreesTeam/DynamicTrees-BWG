@@ -1,10 +1,10 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
-import com.ferreusveritas.dynamictrees.systems.nodemapper.NetVolumeNode;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
+import com.dtteam.dynamictrees.systems.nodemapper.NetVolumeNode;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
 import net.minecraft.resources.ResourceLocation;
 
 public class TwigletSpecies extends Species {
@@ -23,9 +23,9 @@ public class TwigletSpecies extends Species {
     }
 
     @Override
-    public LogsAndSticks getLogsAndSticks(NetVolumeNode.Volume volume) {
+    public LogsAndSticks getLogsAndSticks(NetVolumeNode.Volume volume, boolean silkTouch, int fortuneLevel) {
         NetVolumeNode.Volume modifiedVolume = new NetVolumeNode.Volume(volume.getRawVolumesArray());
         modifiedVolume.addVolume(NetVolumeNode.Volume.VOXELSPERLOG);
-        return super.getLogsAndSticks(modifiedVolume);
+        return super.getLogsAndSticks(modifiedVolume, silkTouch, fortuneLevel);
     }
 }

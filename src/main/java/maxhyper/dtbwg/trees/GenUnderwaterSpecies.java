@@ -1,12 +1,10 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
-import com.ferreusveritas.dynamictrees.block.rooty.SoilHelper;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.util.SafeChunkBounds;
-import com.ferreusveritas.dynamictrees.worldgen.JoCode;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.worldgen.JoCode;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
@@ -41,7 +39,7 @@ public class GenUnderwaterSpecies extends Species {
     }
 
     @Override
-    public BlockPos preGeneration(LevelAccessor world, BlockPos.MutableBlockPos rootPos, int radius, Direction facing, SafeChunkBounds safeBounds, JoCode joCode) {
+    public BlockPos preGeneration(LevelAccessor world, BlockPos.MutableBlockPos rootPos, int radius, Direction facing, boolean worldGen, JoCode joCode) {
         if (this.isWater(world.getBlockState(rootPos))){
             for (int i=1; i<=maxDepth; i++){
                 rootPos.move(Direction.DOWN);
@@ -51,7 +49,7 @@ public class GenUnderwaterSpecies extends Species {
                     break;
             }
         }
-        return super.preGeneration(world, rootPos, radius, facing, safeBounds, joCode);
+        return super.preGeneration(world, rootPos, radius, facing, worldGen, joCode);
     }
 
 }

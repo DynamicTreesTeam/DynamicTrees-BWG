@@ -1,6 +1,6 @@
 //package maxhyper.dtbwg.cancellers;
 //
-//import com.ferreusveritas.dynamictrees.api.TreeRegistry;
+//import com.dtteam.dynamictrees.api.TreeRegistry;
 //import maxhyper.dtbwg.DynamicTreesBWG;
 //import net.minecraft.world.level.block.Block;
 //import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;

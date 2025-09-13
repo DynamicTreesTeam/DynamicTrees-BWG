@@ -1,8 +1,8 @@
 package maxhyper.dtbwg.genfeatures;
 
-import com.ferreusveritas.dynamictrees.api.registry.Registry;
-import com.ferreusveritas.dynamictrees.systems.genfeature.BiomePredicateGenFeature;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
+import com.dtteam.dynamictrees.api.registry.Registry;
+import com.dtteam.dynamictrees.systems.genfeature.BiomePredicateGenFeature;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeature;
 import maxhyper.dtbwg.DynamicTreesBWG;
 
 public class DTBWGGenFeatures {

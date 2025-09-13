@@ -2,6 +2,7 @@ package maxhyper.dtbwg.blocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.BlockGetter;
@@ -16,12 +17,14 @@ import net.minecraft.world.level.material.Fluids;
 
 import java.util.Optional;
 
+import javax.annotation.Nullable;
+
 public interface SimpleLavaloggedBlock extends BucketPickup, LiquidBlockContainer {
 
     BooleanProperty LAVALOGGED = BooleanProperty.create("lavalogged");
 
     @Override
-    default boolean canPlaceLiquid(BlockGetter level, BlockPos pos, BlockState state, Fluid fluid) {
+    default boolean canPlaceLiquid(@Nullable Player player, BlockGetter level, BlockPos pos, BlockState state, Fluid fluid) {
         return !state.getValue(LAVALOGGED) && fluid == Fluids.LAVA;
     }
 
@@ -39,7 +42,7 @@ public interface SimpleLavaloggedBlock extends BucketPickup, LiquidBlockContaine
     }
 
     @Override
-    default ItemStack pickupBlock(LevelAccessor level, BlockPos pos, BlockState state) {
+    default ItemStack pickupBlock(@Nullable Player player, LevelAccessor level, BlockPos pos, BlockState state) {
         if (state.getValue(LAVALOGGED)) {
             level.setBlock(pos, state.setValue(LAVALOGGED, false), 3);
             if (!state.canSurvive(level, pos)) {

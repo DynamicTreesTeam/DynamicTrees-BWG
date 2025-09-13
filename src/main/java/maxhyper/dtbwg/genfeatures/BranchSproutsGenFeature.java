@@ -1,16 +1,16 @@
 package maxhyper.dtbwg.genfeatures;
 
-import com.ferreusveritas.dynamictrees.api.TreeHelper;
-import com.ferreusveritas.dynamictrees.api.configuration.ConfigurationProperty;
-import com.ferreusveritas.dynamictrees.api.network.MapSignal;
-import com.ferreusveritas.dynamictrees.api.network.NodeInspector;
-import com.ferreusveritas.dynamictrees.block.branch.BranchBlock;
-import com.ferreusveritas.dynamictrees.block.branch.TrunkShellBlock;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
-import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeatureConfiguration;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGenerationContext;
-import com.ferreusveritas.dynamictrees.systems.genfeature.context.PostGrowContext;
-import com.ferreusveritas.dynamictrees.util.CoordUtils;
+import com.dtteam.dynamictrees.tree.TreeHelper;
+import com.dtteam.dynamictrees.utility.CoordUtils;
+import com.dtteam.dynamictrees.api.configuration.ConfigurationProperty;
+import com.dtteam.dynamictrees.api.network.MapSignal;
+import com.dtteam.dynamictrees.api.network.NodeInspector;
+import com.dtteam.dynamictrees.block.branch.BranchBlock;
+import com.dtteam.dynamictrees.block.branch.TrunkShellBlock;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeature;
+import com.dtteam.dynamictrees.systems.genfeature.GenFeatureConfiguration;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGenerationContext;
+import com.dtteam.dynamictrees.systems.genfeature.context.PostGrowContext;
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

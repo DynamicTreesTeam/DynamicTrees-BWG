@@ -1,7 +1,7 @@
 package maxhyper.dtbwg.mushroomshape;
 
-import com.ferreusveritas.dynamictrees.api.registry.Registry;
-import com.ferreusveritas.dynamictreesplus.systems.mushroomlogic.shapekits.MushroomShapeKit;
+import com.dtteam.dynamictrees.api.registry.Registry;
+import com.dtteam.dynamictreesplus.systems.mushroomlogic.shapekits.MushroomShapeKit;
 import maxhyper.dtbwg.DynamicTreesBWG;
 
 public class BWGMushroomShapeKits {

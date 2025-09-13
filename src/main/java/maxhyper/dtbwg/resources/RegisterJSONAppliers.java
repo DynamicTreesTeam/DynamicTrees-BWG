@@ -1,20 +1,20 @@
 package maxhyper.dtbwg.resources;
 
-import com.ferreusveritas.dynamictrees.api.applier.ApplierRegistryEvent;
-import com.ferreusveritas.dynamictrees.deserialisation.PropertyAppliers;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
+import com.dtteam.dynamictrees.deserialization.PropertyAppliers;
+import com.dtteam.dynamictrees.event.ApplierRegistryEvent;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictreesplus.block.mushroom.CapProperties;
 import com.google.gson.JsonElement;
 import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.trees.GenOnExtraSoilSpecies;
 import maxhyper.dtbwg.trees.LamentSpecies;
 import maxhyper.dtbwg.trees.ImbuedLogFamily;
 import net.minecraft.world.level.block.Block;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 
-@Mod.EventBusSubscriber(modid = DynamicTreesBWG.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = DynamicTreesBWG.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public final class RegisterJSONAppliers {
 
     @SubscribeEvent

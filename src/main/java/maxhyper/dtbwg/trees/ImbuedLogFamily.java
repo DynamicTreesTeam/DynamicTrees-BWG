@@ -1,21 +1,23 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.data.BranchStateGenerator;
-import com.ferreusveritas.dynamictrees.api.data.Generator;
-import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.branch.BasicBranchBlock;
-import com.ferreusveritas.dynamictrees.block.branch.BranchBlock;
-import com.ferreusveritas.dynamictrees.block.branch.ThickBranchBlock;
-import com.ferreusveritas.dynamictrees.data.provider.DTBlockStateProvider;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.util.MutableLazyValue;
-import com.ferreusveritas.dynamictrees.util.Optionals;
-import com.ferreusveritas.dynamictrees.util.ResourceLocationUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
+
+import com.dtteam.dynamictrees.api.lazyvalue.MutableLazyValue;
+import com.dtteam.dynamictrees.api.registry.RegistryHandler;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.block.branch.BasicBranchBlock;
+import com.dtteam.dynamictrees.block.branch.BranchBlock;
+import com.dtteam.dynamictrees.block.branch.ThickBranchBlock;
+import com.dtteam.dynamictrees.data.Generator;
+import com.dtteam.dynamictrees.data.Generator.Dependencies;
+import com.dtteam.dynamictrees.data.generator.BranchStateGenerator;
+import com.dtteam.dynamictrees.data.provider.DTBlockStateProvider;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.utility.Optionals;
+import com.dtteam.dynamictrees.utility.ResourceLocationUtils;
 
 import java.util.Optional;
 import java.util.function.BiConsumer;
@@ -27,7 +29,7 @@ public class ImbuedLogFamily extends Family {
 
     protected Supplier<BranchBlock> imbuedBranch;
     protected Block primitiveImbuedLog;
-    protected final MutableLazyValue<Generator<DTBlockStateProvider, Family>> imbuedBranchStateGenerator;
+    protected final MutableLazyValue<ImbuedBranchStateGenerator> imbuedBranchStateGenerator;
 
     public ImbuedLogFamily(ResourceLocation name) {
         super(name);

@@ -1,9 +1,9 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.family.NetherFungusFamily;
-import com.ferreusveritas.dynamictrees.util.BlockBounds;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.api.voxmap.BlockPosBounds;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.family.NetherFungusFamily;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 
@@ -15,7 +15,7 @@ public class SythianFungusFamily extends NetherFungusFamily {
         super(name);
     }
 
-    public BlockBounds expandLeavesBlockBounds(BlockBounds bounds) {
+    public BlockPosBounds expandLeavesBlockBounds(BlockPosBounds bounds) {
         return bounds.expand(2).shrink(Direction.DOWN, 1);
     }
 

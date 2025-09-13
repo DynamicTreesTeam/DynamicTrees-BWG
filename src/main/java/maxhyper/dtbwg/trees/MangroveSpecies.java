@@ -1,13 +1,12 @@
 package maxhyper.dtbwg.trees;
 
-import com.ferreusveritas.dynamictrees.api.registry.TypedRegistry;
-import com.ferreusveritas.dynamictrees.block.entity.SpeciesBlockEntity;
-import com.ferreusveritas.dynamictrees.block.leaves.LeavesProperties;
-import com.ferreusveritas.dynamictrees.block.rooty.RootyBlock;
-import com.ferreusveritas.dynamictrees.block.rooty.SoilHelper;
-import com.ferreusveritas.dynamictrees.tree.family.Family;
-import com.ferreusveritas.dynamictrees.tree.species.Species;
-import com.ferreusveritas.dynamictrees.worldgen.GenerationContext;
+import com.dtteam.dynamictrees.api.registry.TypedRegistry;
+import com.dtteam.dynamictrees.block.leaves.LeavesProperties;
+import com.dtteam.dynamictrees.tree.family.Family;
+import com.dtteam.dynamictrees.tree.species.Species;
+import com.dtteam.dynamictrees.tree.species.UndergroundRootsSpecies;
+import com.dtteam.dynamictrees.worldgen.DynamicTreeGenerationContext;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.LevelAccessor;
@@ -16,7 +15,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class MangroveSpecies extends com.ferreusveritas.dynamictrees.tree.species.MangroveSpecies {
+public class MangroveSpecies extends UndergroundRootsSpecies {
 
     public static final TypedRegistry.EntryType<Species> TYPE = createDefaultType(MangroveSpecies::new);
 
@@ -47,7 +46,7 @@ public class MangroveSpecies extends com.ferreusveritas.dynamictrees.tree.specie
     }
 
     @Override
-    public boolean generate(GenerationContext context) {
+    public boolean generate(DynamicTreeGenerationContext context) {
         int i;
         for (i=0; i<maxDepth; i++){
             if (isWater(context.level().getBlockState(context.rootPos().below())))
