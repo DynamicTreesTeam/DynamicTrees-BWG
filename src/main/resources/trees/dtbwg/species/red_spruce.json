@@ -17,7 +17,7 @@
   },
   "primitive_sapling": "biomeswevegone:red_spruce_sapling",
   "mega_species": "dtbwg:mega_red_spruce",
-  "features" : [
+  "features": [
     "conifer_topper",
     "podzol"
   ],

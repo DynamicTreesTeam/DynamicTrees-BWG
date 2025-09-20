@@ -12,7 +12,7 @@
   "max_branch_radius": 22,
   "growth_logic_kit": "dtbwg:mega_rainbow_eucalyptus",
   "leaves_properties": "dtbwg:rainbow_eucalyptus",
-  "environment_factors" : {
+  "environment_factors": {
     "snowy": 0.5,
     "dry": 0.75
   },
@@ -31,5 +31,7 @@
       }
     },
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

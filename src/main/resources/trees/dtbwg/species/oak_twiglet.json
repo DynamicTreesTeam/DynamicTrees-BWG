@@ -1,5 +1,7 @@
 {
   "type": "dtbwg:twiglet",
   "family": "oak",
-  "leaves_properties": "dtbwg:oak_twiglet"
+  "leaves_properties": "dtbwg:oak_twiglet",
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -9,13 +9,15 @@
   "leaves_properties": "dtbwg:brown_zelkova",
   "generate_seed": true,
   "generate_sapling": true,
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "name": ".*zelkova.*" },
+  "perfect_biomes": {
+    "name": ".*zelkova.*"
+  },
   "primitive_sapling": "biomeswevegone:brown_zelkova_sapling",
-  "features" : [
+  "features": [
     "conifer_topper"
   ],
   "lang_overrides": {

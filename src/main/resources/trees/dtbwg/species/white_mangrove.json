@@ -10,20 +10,29 @@
   "growth_rate": 0.6,
   "leaves_properties": "dtbwg:white_mangrove",
   "roots_growth_logic_kit": "mangrove_roots",
-  "environment_factors" : {
+  "environment_factors": {
     "#forge:is_cold": 0.75,
     "#forge:is_dry": 0.2
   },
-  "perfect_biomes": { "tag": "#forge:is_swamp" },
+  "perfect_biomes": {
+    "tag": "#forge:is_swamp"
+  },
   "primitive_sapling": "biomeswevegone:white_mangrove_sapling",
   "sapling_shape": "slim_sapling",
   "model_overrides": {
     "sapling": "dynamictrees:block/smartmodel/water_sapling_thin"
   },
-  "acceptable_soils": ["dirt_like", "mud_like", "water_like"],
-  "world_gen_acceptable_soils": ["sand_like", "clay_like"],
+  "acceptable_soils": [
+    "dirt_like",
+    "mud_like",
+    "water_like"
+  ],
+  "world_gen_acceptable_soils": [
+    "sand_like",
+    "clay_like"
+  ],
   "plantable_on_fluid": true,
-  "features" : [
+  "features": [
     {
       "name": "vines",
       "properties": {
@@ -35,5 +44,7 @@
   ],
   "lang_overrides": {
     "seed": "White Mangrove Propagule"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

@@ -9,12 +9,19 @@
   "max_branch_radius": 12,
   "growth_logic_kit": "dtbwg:diagonal_palm",
   "leaves_properties": "dtbwg:palm",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.75,
     "hot": 1.1,
     "dry": 1.1
   },
   "transformable": false,
-  "perfect_biomes": { "tag": "#minecraft:is_beach" },
-  "acceptable_soils": [ "dirt_like", "sand_like" ]
+  "perfect_biomes": {
+    "tag": "#minecraft:is_beach"
+  },
+  "acceptable_soils": [
+    "dirt_like",
+    "sand_like"
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

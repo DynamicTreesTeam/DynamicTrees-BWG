@@ -15,7 +15,7 @@
   },
   "leaves_properties": "dtbwg:blue_spruce",
   "seed": "dtbwg:blue_spruce_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
@@ -24,7 +24,7 @@
   "perfect_biomes": {
     "name": "biomeswevegone:frosted_taiga.*"
   },
-  "features" : [
+  "features": [
     "conifer_topper",
     "bottom_flare",
     {
@@ -41,5 +41,7 @@
     },
     "clear_volume",
     "podzol"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -9,7 +9,7 @@
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:orchard",
   "seed": "dtbwg:orchard_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.75,
     "hot": 0.5,
     "dry": 0.5
@@ -21,7 +21,7 @@
   "fruits": [
     "apple"
   ],
-  "features" : [
+  "features": [
     {
       "name": "rot_soil",
       "properties": {
@@ -47,5 +47,7 @@
         "fruit": "apple"
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

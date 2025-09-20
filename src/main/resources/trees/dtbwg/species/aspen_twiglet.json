@@ -1,5 +1,7 @@
 {
   "type": "dtbwg:twiglet",
   "family": "dtbwg:aspen",
-  "leaves_properties": "dtbwg:aspen_twiglet"
+  "leaves_properties": "dtbwg:aspen_twiglet",
+  "generate_seed": false,
+  "generate_sapling": false
 }

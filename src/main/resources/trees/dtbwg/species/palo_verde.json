@@ -6,7 +6,7 @@
   "lowest_branch_height": 2,
   "growth_rate": 0.7,
   "leaves_properties": "dtbwg:palo_verde",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.25,
     "nether": 0.75,
     "wet": 0.75
@@ -15,8 +15,12 @@
     "tag": "#(minecraft:is_badlands)|(forge:is_desert)"
   },
   "primitive_sapling": "biomeswevegone:palo_verde_sapling",
-  "acceptable_soils": [ "dirt_like", "sand_like", "terracotta_like" ],
-  "features" : [
+  "acceptable_soils": [
+    "dirt_like",
+    "sand_like",
+    "terracotta_like"
+  ],
+  "features": [
     {
       "name": "alt_leaves",
       "properties": {
@@ -24,5 +28,7 @@
         "place_chance": 0.15
       }
     }
-  ]
+  ],
+  "generate_seed": true,
+  "generate_sapling": true
 }

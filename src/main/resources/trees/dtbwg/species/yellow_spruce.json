@@ -14,7 +14,7 @@
   },
   "primitive_sapling": "biomeswevegone:yellow_spruce_sapling",
   "mega_species": "dtbwg:mega_yellow_spruce",
-  "features" : [
+  "features": [
     "conifer_topper",
     "podzol"
   ],

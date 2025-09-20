@@ -8,7 +8,7 @@
   "soil_longevity": 20,
   "max_branch_radius": 22,
   "leaves_properties": "dtbwg:mahogany",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.75,
     "dry": 0.5
   },
@@ -27,5 +27,7 @@
       }
     },
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

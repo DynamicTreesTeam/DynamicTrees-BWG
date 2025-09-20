@@ -17,12 +17,20 @@
     }
   },
   "leaves_properties": "dtbwg:cypress",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.7,
     "dry": 0.5
   },
-  "perfect_biomes": { "tags": [ "#forge:is_swamp", "#minecraft:is_overworld" ] },
-  "acceptable_soils": [ "water_like", "dirt_like" ],
+  "perfect_biomes": {
+    "tags": [
+      "#forge:is_swamp",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "acceptable_soils": [
+    "water_like",
+    "dirt_like"
+  ],
   "features": [
     "dtbwg:extra_bottom_flare",
     {
@@ -40,5 +48,7 @@
       }
     },
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

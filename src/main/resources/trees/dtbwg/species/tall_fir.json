@@ -7,13 +7,17 @@
   "growth_rate": 1.1,
   "growth_logic_kit": "conifer",
   "leaves_properties": "dtbwg:fir",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
-  "features" : [
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
+  "features": [
     "conifer_topper"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

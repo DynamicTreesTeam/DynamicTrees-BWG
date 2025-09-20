@@ -15,12 +15,12 @@
   },
   "leaves_properties": "dtbwg:orange_spruce",
   "seed": "dtbwg:orange_spruce_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "#forge:is_hot": 0.50,
     "#forge:is_dry": 0.25,
     "#forge:is_wet": 0.75
   },
-  "features" : [
+  "features": [
     "conifer_topper",
     "clear_volume",
     {
@@ -31,5 +31,7 @@
     },
     "podzol"
   ],
-  "mega_species": "dtbwg:giga_orange_spruce"
+  "mega_species": "dtbwg:giga_orange_spruce",
+  "generate_seed": false,
+  "generate_sapling": false
 }

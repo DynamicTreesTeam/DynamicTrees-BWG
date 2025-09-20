@@ -13,13 +13,18 @@
       "canopy_depth": 6
     }
   },
-  "environment_factors" : {
+  "environment_factors": {
     "snowy": 0.75,
     "dry": 0.5
   },
-  "perfect_biomes": { "tag": "#forge:is_swamp" },
+  "perfect_biomes": {
+    "tag": "#forge:is_swamp"
+  },
   "primitive_sapling": "biomeswevegone:willow_sapling",
-  "acceptable_soils": ["dirt_like", "water_like"],
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ],
   "features": [
     "bottom_flare",
     {
@@ -42,5 +47,7 @@
         "max_length": 16
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

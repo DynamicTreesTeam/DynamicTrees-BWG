@@ -9,16 +9,20 @@
   "max_branch_radius": 24,
   "growth_logic_kit": "dtbwg:redwood",
   "leaves_properties": "dtbwg:redwood",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "forest": 1.05
   },
   "always_show_on_waila": false,
   "world_gen_leaf_map_height": 64,
-  "common_override": { "name": ".*redwood.*" },
-  "perfect_biomes": { "name": ".*redwood.*" },
-  "features" : [
+  "common_override": {
+    "name": ".*redwood.*"
+  },
+  "perfect_biomes": {
+    "name": ".*redwood.*"
+  },
+  "features": [
     "conifer_topper",
     {
       "name": "clear_volume",
@@ -44,5 +48,7 @@
   ],
   "lang_overrides": {
     "seed": "Redwood Cone"
-  }
+  },
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -16,9 +16,11 @@
     }
   },
   "primitive_sapling": "biomeswevegone:green_mushroom",
-  "acceptable_soils": ["fungus_like"],
+  "acceptable_soils": [
+    "fungus_like"
+  ],
   "sapling_shape": "dtbwg:tall_flat_mushroom",
-  "features" : [
+  "features": [
     "bottom_flare"
   ],
   "model_overrides": {

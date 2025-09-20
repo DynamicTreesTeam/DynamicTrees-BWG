@@ -7,7 +7,7 @@
   "growth_rate": 0.8,
   "max_branch_radius": 10,
   "leaves_properties": "cherry",
-  "environment_factors" : {
+  "environment_factors": {
     "#forge:is_hot": 0.5,
     "#forge:is_dry": 0.5,
     "#is_forest": 1.05
@@ -15,8 +15,12 @@
   "perfect_biomes": {
     "name": "biomeswevegone:sakura.*"
   },
-  "common_override": { "name": "biomeswevegone:sakura_grove" },
-  "features" : [
+  "common_override": {
+    "name": "biomeswevegone:sakura_grove"
+  },
+  "features": [
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

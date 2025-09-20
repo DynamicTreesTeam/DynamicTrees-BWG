@@ -58,5 +58,7 @@
         "undergrowth_species": "dynamictrees:oak_undergrowth"
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

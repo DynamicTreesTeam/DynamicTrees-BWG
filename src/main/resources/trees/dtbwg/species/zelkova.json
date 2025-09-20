@@ -7,16 +7,20 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "dtbwg:zelkova",
   "leaves_properties": "dtbwg:zelkova",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "name": ".*zelkova.*" },
+  "perfect_biomes": {
+    "name": ".*zelkova.*"
+  },
   "primitive_sapling": "biomeswevegone:zelkova_sapling",
-  "features" : [
+  "features": [
     "conifer_topper"
   ],
   "lang_overrides": {
     "seed": "Zelkova Seeds"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

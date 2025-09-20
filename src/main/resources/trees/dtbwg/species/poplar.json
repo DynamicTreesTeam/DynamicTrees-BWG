@@ -10,7 +10,9 @@
   "growth_rate": 0.85,
   "growth_logic_kit": "dtbwg:poplar",
   "leaves_properties": "dtbwg:poplar",
-  "perfect_biomes": { "name": "biomeswevegone:.*grove" },
+  "perfect_biomes": {
+    "name": "biomeswevegone:.*grove"
+  },
   "lang_overrides": {
     "seed": "Poplar Catkin"
   }

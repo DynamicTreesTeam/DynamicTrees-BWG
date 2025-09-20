@@ -15,8 +15,10 @@
     }
   },
   "primitive_sapling": "biomeswevegone:wood_blewit",
-  "acceptable_soils": ["fungus_like"],
-  "features" : [
+  "acceptable_soils": [
+    "fungus_like"
+  ],
+  "features": [
     "bottom_flare"
   ],
   "model_overrides": {
@@ -24,5 +26,7 @@
   },
   "lang_overrides": {
     "seed": "Wood Blewit Cap"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

@@ -26,5 +26,7 @@
         "scale_factor": 24
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -17,7 +17,7 @@
   },
   "primitive_sapling": "biomeswevegone:orange_spruce_sapling",
   "mega_species": "dtbwg:mega_orange_spruce",
-  "features" : [
+  "features": [
     "conifer_topper",
     "podzol"
   ],

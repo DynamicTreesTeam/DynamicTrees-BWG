@@ -8,15 +8,19 @@
   "soil_longevity": 12,
   "leaves_properties": "dtbwg:yellow_birch",
   "seed": "dtbwg:yellow_birch_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.75,
     "hot": 0.5,
     "dry": 0.5,
     "forest": 1.05
   },
-  "common_override": { "name": "minecraft:tall_birch.*" },
-  "perfect_biomes": { "name": ".*howling_peaks.*" },
-  "features" : [
+  "common_override": {
+    "name": "minecraft:tall_birch.*"
+  },
+  "perfect_biomes": {
+    "name": ".*howling_peaks.*"
+  },
+  "features": [
     {
       "name": "mushroom_rot",
       "properties": {
@@ -26,5 +30,7 @@
     },
     "rot_soil",
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

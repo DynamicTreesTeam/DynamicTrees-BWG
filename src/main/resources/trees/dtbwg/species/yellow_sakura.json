@@ -19,7 +19,7 @@
     "name": "biomeswevegone:sakura.*"
   },
   "primitive_sapling": "biomeswevegone:yellow_sakura_sapling",
-  "features" : [
+  "features": [
     "bee_nest"
   ],
   "lang_overrides": {

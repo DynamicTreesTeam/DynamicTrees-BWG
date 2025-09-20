@@ -7,17 +7,21 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "dtbwg:thin_conifer",
   "leaves_properties": "dtbwg:pine",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
   "primitive_sapling": "biomeswevegone:pine_sapling",
   "mega_species": "dtbwg:mega_pine",
-  "features" : [
+  "features": [
     "conifer_topper"
   ],
   "lang_overrides": {
     "seed": "Pine Cone"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

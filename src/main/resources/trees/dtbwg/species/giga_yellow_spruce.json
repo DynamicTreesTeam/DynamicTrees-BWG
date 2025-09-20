@@ -15,13 +15,13 @@
   },
   "leaves_properties": "dtbwg:yellow_spruce",
   "seed": "dtbwg:yellow_spruce_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "features" : [
+  "features": [
     "conifer_topper",
     "bottom_flare",
     {
@@ -38,5 +38,7 @@
     },
     "clear_volume",
     "podzol"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

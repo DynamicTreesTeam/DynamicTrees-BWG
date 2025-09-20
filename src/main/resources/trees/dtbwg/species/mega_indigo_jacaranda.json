@@ -36,5 +36,7 @@
       }
     },
     "bee_nest"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

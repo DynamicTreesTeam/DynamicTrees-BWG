@@ -7,13 +7,17 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "dtbwg:tapered",
   "leaves_properties": "dtbwg:tapered_oak",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.75,
     "dry": 0.50
   },
-  "common_override": { "name": "biomeswevegone:fragment_jungle" },
-  "perfect_biomes": { "tag": "#minecraft:is_forest" },
-  "features" : [
+  "common_override": {
+    "name": "biomeswevegone:fragment_jungle"
+  },
+  "perfect_biomes": {
+    "tag": "#minecraft:is_forest"
+  },
+  "features": [
     "conifer_topper",
     {
       "name": "random_predicate",
@@ -29,5 +33,7 @@
         "scale_factor": 16
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

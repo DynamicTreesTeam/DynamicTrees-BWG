@@ -16,21 +16,27 @@
     }
   },
   "leaves_properties": "dtbwg:cika",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.8,
     "dry": 0.75,
     "wet": 0.9
   },
   "always_show_on_waila": false,
   "world_gen_leaf_map_height": 60,
-  "common_override": { "name": ".*cika.*" },
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
-  "features" : [
+  "common_override": {
+    "name": ".*cika.*"
+  },
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
+  "features": [
     "conifer_topper",
     "clear_volume",
     "mound"
   ],
   "lang_overrides": {
     "seed": "Cika Cone"
-  }
+  },
+  "generate_seed": false,
+  "generate_sapling": false
 }

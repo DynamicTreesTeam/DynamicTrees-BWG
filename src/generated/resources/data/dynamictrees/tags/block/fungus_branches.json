@@ -1,11 +1,11 @@
 {
   "values": [
     {
-      "id": "dtbwg:brown_mushroom_branch",
+      "id": "dtbwg:white_mushroom_branch",
       "required": false
     },
     {
-      "id": "dtbwg:white_mushroom_branch",
+      "id": "dtbwg:brown_mushroom_branch",
       "required": false
     }
   ]

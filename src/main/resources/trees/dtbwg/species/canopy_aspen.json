@@ -17,7 +17,9 @@
   "perfect_biomes": {
     "name": "biomeswevegone:aspen.*"
   },
-  "features" : [
+  "features": [
     "conifer_topper"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -7,7 +7,7 @@
   "lowest_branch_height": 12,
   "leaves_properties": "dtbwg:orchard",
   "seed": "dtbwg:orchard_seed",
-  "environment_factors" : {
+  "environment_factors": {
     "cold": 0.75,
     "hot": 0.5,
     "dry": 0.5
@@ -20,7 +20,7 @@
   "fruits": [
     "apple"
   ],
-  "features" : [
+  "features": [
     "bottom_flare",
     "mound",
     {
@@ -51,5 +51,7 @@
         "fruit": "apple"
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

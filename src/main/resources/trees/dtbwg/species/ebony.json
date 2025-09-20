@@ -31,5 +31,7 @@
   ],
   "lang_overrides": {
     "seed": "Ebony Pod"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

@@ -6,11 +6,16 @@
   "leaves_properties": "dtbwg:yucca",
   "generate_seed": true,
   "generate_sapling": true,
-  "environment_factors" : {
+  "environment_factors": {
     "wet": 0.75,
     "cold": 0.75
   },
-  "perfect_biomes": { "tags": [ "#forge:is_desert", "#minecraft:is_overworld" ] },
+  "perfect_biomes": {
+    "tags": [
+      "#forge:is_desert",
+      "#minecraft:is_overworld"
+    ]
+  },
   "primitive_saplings": [
     "biomeswevegone:yucca_sapling",
     {
@@ -18,11 +23,14 @@
       "can_craft_seed_to_sapling": false
     }
   ],
-  "acceptable_soils": ["dirt_like", "sand_like"],
+  "acceptable_soils": [
+    "dirt_like",
+    "sand_like"
+  ],
   "fruits": [
     "dtbwg:yucca_fruit"
   ],
-  "features" : [
+  "features": [
     {
       "name": "rot_soil",
       "properties": {

@@ -25,7 +25,7 @@
   "fruits": [
     "dtbwg:baobab_fruit"
   ],
-  "features" : [
+  "features": [
     {
       "name": "clear_volume",
       "properties": {
@@ -44,5 +44,7 @@
         "fruit": "dtbwg:baobab_fruit"
       }
     }
-  ]
+  ],
+  "generate_seed": true,
+  "generate_sapling": true
 }

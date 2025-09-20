@@ -18,9 +18,11 @@
     }
   },
   "primitive_sapling": "biomeswevegone:weeping_milkcap",
-  "acceptable_soils": ["fungus_like"],
+  "acceptable_soils": [
+    "fungus_like"
+  ],
   "sapling_shape": "dtbwg:short_round_mushroom",
-  "features" : [
+  "features": [
     "bottom_flare"
   ],
   "lang_overrides": {

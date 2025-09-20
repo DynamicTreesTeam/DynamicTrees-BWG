@@ -8,7 +8,7 @@
   "soil_longevity": 3,
   "growth_logic_kit": "conifer",
   "leaves_properties": "dtbwg:cika",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.8,
     "dry": 0.75,
     "wet": 0.9
@@ -16,11 +16,15 @@
   "always_show_on_waila": true,
   "seed_name": "cika_seed",
   "sapling_name": "cika_sapling",
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
   "primitive_sapling": "biomeswevegone:cika_sapling",
   "mega_species": "dtbwg:cika",
-  "features" : [
+  "features": [
     "conifer_topper",
     "bottom_flare"
-  ]
+  ],
+  "generate_seed": true,
+  "generate_sapling": true
 }

@@ -9,14 +9,16 @@
   "max_branch_radius": 8,
   "growth_logic_kit": "dtbwg:mega_pine",
   "leaves_properties": "dtbwg:pine",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 60,
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
-  "features" : [
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
+  "features": [
     "conifer_topper",
     "clear_volume",
     "bottom_flare",
@@ -34,5 +36,7 @@
       }
     },
     "podzol"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

@@ -13,13 +13,17 @@
     }
   },
   "leaves_properties": "dtbwg:northern_spruce",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "tag": "#forge:is_coniferous" },
+  "perfect_biomes": {
+    "tag": "#forge:is_coniferous"
+  },
   "mega_species": "mega_spruce",
-  "features" : [
+  "features": [
     "conifer_topper"
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

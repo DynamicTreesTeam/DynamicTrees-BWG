@@ -6,7 +6,7 @@
   "lowest_branch_height": 6,
   "growth_rate": 0.7,
   "leaves_properties": "dtbwg:skyris",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.5,
     "dry": 0.75
   },
@@ -24,7 +24,7 @@
   "fruits": [
     "dtbwg:green_apple"
   ],
-  "features" : [
+  "features": [
     {
       "name": "alt_leaves",
       "properties": {
@@ -52,5 +52,7 @@
   ],
   "lang_overrides": {
     "seed": "Green Apple Pip"
-  }
+  },
+  "generate_seed": true,
+  "generate_sapling": true
 }

@@ -9,7 +9,7 @@
   "max_branch_radius": 24,
   "growth_logic_kit": "dtbwg:small_redwood",
   "leaves_properties": "dtbwg:redwood",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
@@ -17,10 +17,12 @@
   "always_show_on_waila": true,
   "seed_name": "redwood_seed",
   "sapling_name": "redwood_sapling",
-  "perfect_biomes": { "name": ".*redwood.*" },
+  "perfect_biomes": {
+    "name": ".*redwood.*"
+  },
   "primitive_sapling": "biomeswevegone:redwood_sapling",
   "mega_species": "dtbwg:redwood",
-  "features" : [
+  "features": [
     "conifer_topper",
     "bottom_flare",
     {
@@ -29,5 +31,7 @@
         "mound_cutoff_radius": 999
       }
     }
-  ]
+  ],
+  "generate_seed": true,
+  "generate_sapling": true
 }

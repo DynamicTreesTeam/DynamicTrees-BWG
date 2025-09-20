@@ -1,36 +1,43 @@
 {
-    "family": "dtbwg:blue_enchanted",
-    "tapering": 0.5,
-    "signal_energy": 20.0,
-    "growth_rate": 0.8,
-    "up_probability": 3,
-    "lowest_branch_height": 4,
-    "soil_longevity": 4,
-    "max_branch_radius": 24,
-    "leaves_properties": "dtbwg:blue_enchanted",
-    "growth_logic_kit": {
-        "name": "dtbwg:enchanted",
-        "properties": {
-            "chance_to_split": 0,
-            "force_branching_at_step": 10,
-            "height_variation": 5
-        }
-    },
-    "perfect_biomes": { "tags": [ "#minecraft:is_forest", "#minecraft:is_overworld" ] },
-    "primitive_sapling": "biomeswevegone:blue_enchanted_sapling",
-    "features": [
-        {
-            "name": "dtbwg:alt_branch",
-            "properties": {
-                "alternative_branch_block": "dtbwg:imbued_blue_enchanted_branch"
-            }
-        },
-        {
-            "name": "clear_volume",
-            "properties": {
-                "height": 6
-            }
-        },
-        "mound"
+  "family": "dtbwg:blue_enchanted",
+  "tapering": 0.5,
+  "signal_energy": 20.0,
+  "growth_rate": 0.8,
+  "up_probability": 3,
+  "lowest_branch_height": 4,
+  "soil_longevity": 4,
+  "max_branch_radius": 24,
+  "leaves_properties": "dtbwg:blue_enchanted",
+  "growth_logic_kit": {
+    "name": "dtbwg:enchanted",
+    "properties": {
+      "chance_to_split": 0,
+      "force_branching_at_step": 10,
+      "height_variation": 5
+    }
+  },
+  "perfect_biomes": {
+    "tags": [
+      "#minecraft:is_forest",
+      "#minecraft:is_overworld"
     ]
+  },
+  "primitive_sapling": "biomeswevegone:blue_enchanted_sapling",
+  "features": [
+    {
+      "name": "dtbwg:alt_branch",
+      "properties": {
+        "alternative_branch_block": "dtbwg:imbued_blue_enchanted_branch"
+      }
+    },
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 6
+      }
+    },
+    "mound"
+  ],
+  "generate_seed": true,
+  "generate_sapling": true
 }

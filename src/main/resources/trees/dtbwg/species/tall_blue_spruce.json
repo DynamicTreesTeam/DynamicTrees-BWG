@@ -23,7 +23,7 @@
   "perfect_biomes": {
     "name": "biomeswevegone:frosted_taiga.*"
   },
-  "features" : [
+  "features": [
     "conifer_topper",
     "podzol",
     "bottom_flare",
@@ -34,5 +34,7 @@
         "scale_factor": 12
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

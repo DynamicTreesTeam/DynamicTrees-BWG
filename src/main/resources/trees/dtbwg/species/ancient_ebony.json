@@ -28,5 +28,7 @@
         "sprout_block": "dtbwg:shelf_fungi"
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }

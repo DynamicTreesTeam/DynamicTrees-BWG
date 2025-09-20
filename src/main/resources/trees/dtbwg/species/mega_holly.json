@@ -15,13 +15,15 @@
     }
   },
   "leaves_properties": "dtbwg:holly",
-  "environment_factors" : {
+  "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
-  "perfect_biomes": { "name": ".*dacite_ridges.*" },
-  "features" : [
+  "perfect_biomes": {
+    "name": ".*dacite_ridges.*"
+  },
+  "features": [
     "conifer_topper",
     "clear_volume",
     "bottom_flare",
@@ -39,5 +41,7 @@
         "place_chance": 0.1
       }
     }
-  ]
+  ],
+  "generate_seed": false,
+  "generate_sapling": false
 }
