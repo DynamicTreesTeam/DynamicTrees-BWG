@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#biomeswevegone:flowers/alliums",
     "biomeswevegone:tall_beach_grass",
     "biomeswevegone:tall_prairie_grass",
     "biomeswevegone:beach_grass",
@@ -20,6 +21,12 @@
     "biomeswevegone:green_mushroom",
     "biomeswevegone:wood_blewit",
     "biomeswevegone:cattail_sprout",
-    "biomeswevegone:shrub"
+    "biomeswevegone:shrub",
+    "biomeswevegone:firecracker_flower_bush",
+    "biomeswevegone:hydrangea_bush",
+    "biomeswevegone:golden_spined_cactus",
+    "biomeswevegone:prickly_pear_cactus",
+    "biomeswevegone:mini_cactus",
+    "biomeswevegone:aloe_vera"
   ]
 }
