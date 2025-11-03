@@ -109,7 +109,7 @@ dependencies {
     implementation(fg.deobf("corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.3"))
     implementation(fg.deobf("dev.corgitaco:Oh-The-Trees-Youll-Grow-forge:1.20.1-1.3.4"))//crash with 1.3.5 and higher
     runtimeOnly(fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.7.2"))
-    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:6706622"))
+    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:7170427"))
 
     runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))
     runtimeOnly(fg.deobf("curse.maven:jei-238222:5101366"))
