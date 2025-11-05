@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-22T13:10:49.2587009	Loot Tables
+// 1.20.1	2025-11-05T13:46:19.8300902	Loot Tables
 8c88c8a74b42e9e6b8223cdc6ec6f35ef3ab8752 data/dtbwg/loot_tables/blocks/allium_leaves.json
 c8fa2e65eef15787197e76bca3a77d2557efb40a data/dtbwg/loot_tables/blocks/ancient_ebony_leaves.json
 6f3de234e3bb44f79c8b6bbf627bca383a4188cc data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
@@ -137,7 +137,7 @@ b7a161fd9556964e85b5ac4fa76cc5f8bbb4c053 data/dtbwg/loot_tables/trees/leaves/anc
 2dcbc2a2e3cbebef96900b36440cdbe0237b9c10 data/dtbwg/loot_tables/trees/leaves/aspen.json
 767a0514e9afe109f1d35a1d4620534ecac3cfa7 data/dtbwg/loot_tables/trees/leaves/aspen_twiglet.json
 e520592241c04e4997386f6e086e00f842e25cdd data/dtbwg/loot_tables/trees/leaves/baobab.json
-5ec5a4682acc4aeb62b8516e82b53bba487dc1c2 data/dtbwg/loot_tables/trees/leaves/blooming_witch_hazel.json
+c804988dd1a223be3836c7e5ec51dd76aa98df58 data/dtbwg/loot_tables/trees/leaves/blooming_witch_hazel.json
 632fe8894c3327f0630f83b0cc3e310a5aa9d179 data/dtbwg/loot_tables/trees/leaves/blue_enchanted.json
 f8f5978dc287c89f62ef5b3c4674704bb9db2bcc data/dtbwg/loot_tables/trees/leaves/blue_spruce.json
 5359740e3bbfa369e48f6db17075e38d206aa677 data/dtbwg/loot_tables/trees/leaves/brown_zelkova.json
@@ -150,16 +150,16 @@ f8f5978dc287c89f62ef5b3c4674704bb9db2bcc data/dtbwg/loot_tables/trees/leaves/blu
 66b56bca5f81c5e839cb8f9479dd98c5af7e6422 data/dtbwg/loot_tables/trees/leaves/fir.json
 c8b2fe759cfbb2c3caac76a7162d076510033b54 data/dtbwg/loot_tables/trees/leaves/firecracker.json
 bcd5530d6f2ac9634f95c66aab98edb21a82ec17 data/dtbwg/loot_tables/trees/leaves/firecracker_twiglet.json
-3767e438795680b79dc7d763eb09e7540f5d3d2f data/dtbwg/loot_tables/trees/leaves/flowering_indigo_jacaranda.json
-675fc1af0d687626b2439e9d5a9ea321ab67b0ba data/dtbwg/loot_tables/trees/leaves/flowering_ironwood.json
-0026977d16b12e5a50367590f41e9c0a3f9e69bf data/dtbwg/loot_tables/trees/leaves/flowering_jacaranda.json
-a9012ad0eb883959cf09e92165c189a7ccb8f789 data/dtbwg/loot_tables/trees/leaves/flowering_orchard.json
-e9fcf81248019f782203cc8abc522f1041f9c400 data/dtbwg/loot_tables/trees/leaves/flowering_palo_verde.json
-ae54aef6d92631b3f0fb0f3998bbe7cd33705a70 data/dtbwg/loot_tables/trees/leaves/flowering_skyris.json
-130cea64157f4f4a885543740c92fd7144d0c226 data/dtbwg/loot_tables/trees/leaves/green_apple_skyris.json
+bd547c6b4f0216774704de39e8011fc6a2f2dc48 data/dtbwg/loot_tables/trees/leaves/flowering_indigo_jacaranda.json
+430790feb8940e1d88a66853120acb870ddc0f5a data/dtbwg/loot_tables/trees/leaves/flowering_ironwood.json
+a48286df7c8e45598b9a68e0260aba14a656a08c data/dtbwg/loot_tables/trees/leaves/flowering_jacaranda.json
+968ff86c5fbc4569f88f09798d40494ce593602e data/dtbwg/loot_tables/trees/leaves/flowering_orchard.json
+f4c0f71b5a7b1c8f6432fde5dc68bcd5f3b69e1e data/dtbwg/loot_tables/trees/leaves/flowering_palo_verde.json
+ea904725e727bef8204853b6daa99b0a0a273b80 data/dtbwg/loot_tables/trees/leaves/flowering_skyris.json
+d5841cc4be03699be077a3626c6702776b979791 data/dtbwg/loot_tables/trees/leaves/green_apple_skyris.json
 49e167011ef04f1c591dc232af55e60700377a02 data/dtbwg/loot_tables/trees/leaves/green_enchanted.json
 10086fafaf9508404771f25e4d87135dda8827a9 data/dtbwg/loot_tables/trees/leaves/holly.json
-141717a525b3226ae468239816a0bc913998b5e8 data/dtbwg/loot_tables/trees/leaves/holly_berry.json
+5c15a3cf9e5f59f774233b15f492b99dd5962d38 data/dtbwg/loot_tables/trees/leaves/holly_berry.json
 23a660e6097779f9a109950859b2666d3b5e02a3 data/dtbwg/loot_tables/trees/leaves/indigo_jacaranda.json
 0f11f7081209bcbfe89f80d41224f7bb38260eb7 data/dtbwg/loot_tables/trees/leaves/ironwood.json
 59ffb7521da6be0ad0cffae2c71bdaf44dc68f8c data/dtbwg/loot_tables/trees/leaves/jacaranda.json
@@ -181,7 +181,7 @@ fe059e781a3f0a87dee23f3643f30665bda0cd04 data/dtbwg/loot_tables/trees/leaves/orc
 2f93a5374ff10cfa25b4d8b87d9dca3fb80af1dd data/dtbwg/loot_tables/trees/leaves/redwood.json
 d932815b8d84f798a462e718c3a1f7620b220dcf data/dtbwg/loot_tables/trees/leaves/red_maple.json
 242677bcabe88ce745c81b3202c6ec4e85f42cbe data/dtbwg/loot_tables/trees/leaves/red_spruce.json
-57682f1c1aa800d3354fa7d84d6d96421c40a042 data/dtbwg/loot_tables/trees/leaves/ripe_orchard.json
+fca49f0dd5edb0c1b37a7300107c3883aae0a577 data/dtbwg/loot_tables/trees/leaves/ripe_orchard.json
 8a967b68b798d3da83e52bd6c5d1a5df369502ca data/dtbwg/loot_tables/trees/leaves/rose.json
 0910c4ef90be027767f003a834c99381d4dbf75b data/dtbwg/loot_tables/trees/leaves/silver_maple.json
 08a7d2d0c2cdb4e9e47f372754f10edd00187404 data/dtbwg/loot_tables/trees/leaves/skyris.json
@@ -221,6 +221,10 @@ ee26c8426dbb64d24f8116355fa63eeefd2f42f0 data/dtbwg/loot_tables/trees/voluntary/
 77c1f3d5b72ac69e166f0427d20e27a2f36b1db8 data/dtbwg/loot_tables/trees/voluntary/jacaranda.json
 8b31b42f3bddc93464e86f7e9b8da8e0a59cb3db data/dtbwg/loot_tables/trees/voluntary/mahogany.json
 fc8b46bbfc10ce662da36a187dd165371f9e5fb6 data/dtbwg/loot_tables/trees/voluntary/maple.json
+8eee526ba4595f45dd3c1f0a3c5bda9b79638ca9 data/dtbwg/loot_tables/trees/voluntary/mega_blue_spruce.json
+b530088ebd50736833973faa49b9e876d53e7f29 data/dtbwg/loot_tables/trees/voluntary/mega_orange_spruce.json
+1972a9d10facb9d0e92548b1aa5329e63535211f data/dtbwg/loot_tables/trees/voluntary/mega_red_spruce.json
+7a5fbee956af8dafdc9fc717fc53bec52cef9b9e data/dtbwg/loot_tables/trees/voluntary/mega_yellow_spruce.json
 579b2ee7992d1bf7b1a3c8c397a848241f75250a data/dtbwg/loot_tables/trees/voluntary/orange_birch.json
 3cca8ac5a1e20c57e43de287a3443b7adfd82668 data/dtbwg/loot_tables/trees/voluntary/orange_spruce.json
 8e4abbcc26f9b21e9192dd15b96f77b5a51c0171 data/dtbwg/loot_tables/trees/voluntary/orchard.json
