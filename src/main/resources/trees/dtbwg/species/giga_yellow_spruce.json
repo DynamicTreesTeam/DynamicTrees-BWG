@@ -14,7 +14,6 @@
     }
   },
   "leaves_properties": "dtbwg:yellow_spruce",
-  "seed": "dtbwg:yellow_spruce_seed",
   "environment_factors": {
     "hot": 0.50,
     "dry": 0.25,
@@ -39,6 +38,13 @@
     "clear_volume",
     "podzol"
   ],
-  "generate_seed": false,
-  "generate_sapling": false
+  "generate_seed": true,
+  "generate_sapling": true,
+  "sapling_shape": "fat_sapling",
+  "model_overrides": {
+    "sapling": "dynamictrees:block/smartmodel/large_sapling"
+  },
+  "lang_overrides": {
+    "seed": "Giga Yellow Spruce Cone"
+  }
 }

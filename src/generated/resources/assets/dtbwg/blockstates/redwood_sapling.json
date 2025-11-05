@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dtbwg:block/saplings/redwood_sapling"
+      "model": "dtbwg:block/saplings/redwood"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "common_leaves": "dtbwg:cika",
-  "common_species": "dtbwg:small_cika",
+  "common_species": "dtbwg:cika",
   "primitive_log": "biomeswevegone:cika_log",
   "primitive_stripped_log": "biomeswevegone:stripped_cika_log",
   "max_branch_radius": 24,

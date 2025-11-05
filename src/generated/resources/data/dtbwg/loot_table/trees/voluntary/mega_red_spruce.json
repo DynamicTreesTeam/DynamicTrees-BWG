@@ -12,11 +12,11 @@
               "rarity": 1.0
             }
           ],
-          "name": "dtbwg:cika_seed"
+          "name": "dtbwg:mega_red_spruce_seed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dtbwg:trees/voluntary/small_cika"
+  "random_sequence": "dtbwg:trees/voluntary/mega_red_spruce"
 }

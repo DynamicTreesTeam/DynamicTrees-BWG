@@ -1,6 +1,6 @@
 {
   "common_leaves": "dtbwg:redwood",
-  "common_species": "dtbwg:small_redwood",
+  "common_species": "dtbwg:redwood",
   "primitive_log": "biomeswevegone:redwood_log",
   "primitive_stripped_log": "biomeswevegone:stripped_redwood_log",
   "max_branch_radius": 24,

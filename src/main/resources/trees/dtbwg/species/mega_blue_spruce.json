@@ -14,7 +14,6 @@
     }
   },
   "leaves_properties": "dtbwg:blue_spruce",
-  "seed": "dtbwg:blue_spruce_seed",
   "perfect_biomes": {
     "name": "biomeswevegone:frosted_taiga.*"
   },
@@ -35,6 +34,13 @@
     "podzol"
   ],
   "mega_species": "dtbwg:giga_blue_spruce",
-  "generate_seed": false,
-  "generate_sapling": false
+  "generate_seed": true,
+  "generate_sapling": true,
+  "sapling_shape": "fat_sapling",
+  "model_overrides": {
+    "sapling": "dynamictrees:block/smartmodel/large_sapling"
+  },
+  "lang_overrides": {
+    "seed": "Mega Blue Spruce Cone"
+  }
 }

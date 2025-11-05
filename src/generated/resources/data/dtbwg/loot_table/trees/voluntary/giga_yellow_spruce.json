@@ -12,11 +12,11 @@
               "rarity": 1.0
             }
           ],
-          "name": "dtbwg:redwood_seed"
+          "name": "dtbwg:giga_yellow_spruce_seed"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dtbwg:trees/voluntary/small_redwood"
+  "random_sequence": "dtbwg:trees/voluntary/giga_yellow_spruce"
 }

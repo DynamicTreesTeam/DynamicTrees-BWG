@@ -14,7 +14,6 @@
     }
   },
   "leaves_properties": "dtbwg:orange_spruce",
-  "seed": "dtbwg:orange_spruce_seed",
   "environment_factors": {
     "#forge:is_hot": 0.50,
     "#forge:is_dry": 0.25,
@@ -32,6 +31,13 @@
     "podzol"
   ],
   "mega_species": "dtbwg:giga_orange_spruce",
-  "generate_seed": false,
-  "generate_sapling": false
+  "generate_seed": true,
+  "generate_sapling": true,
+  "sapling_shape": "fat_sapling",
+  "model_overrides": {
+    "sapling": "dynamictrees:block/smartmodel/large_sapling"
+  },
+  "lang_overrides": {
+    "seed": "Mega Orange Spruce Cone"
+  }
 }
