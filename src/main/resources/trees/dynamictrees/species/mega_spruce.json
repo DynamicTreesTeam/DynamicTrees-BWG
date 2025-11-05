@@ -14,6 +14,8 @@
     }
   },
   "leaves_properties": "spruce",
+  "generate_seed": true,
+  "generate_sapling": true,
   "environment_factors" : {
     "#forge:is_hot": 0.50,
     "#forge:is_dry": 0.25,
@@ -32,5 +34,13 @@
     "clear_volume",
     "podzol"
   ],
+  "sapling_shape": "fat_sapling",
+  "model_overrides": {
+    "sapling": "dynamictrees:block/smartmodel/large_sapling"
+  },
+  "lang_overrides": {
+    "seed": "Mega Spruce Cone"
+  },
+
   "mega_species": "dtbwg:giga_spruce"
 }
