@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-05T13:46:19.8228063	Item Models: dtbwg
+// 1.20.1	2025-11-05T16:54:09.1544267	Item Models: dtbwg
 6f971763ba50d2ce6169d35b6833d98e90daec53 assets/dtbwg/models/item/allium_seed.json
 976835ce375471464f989727e4ae09df143f6b64 assets/dtbwg/models/item/araucaria_seed.json
 4871c78872161db0ceab3983c2571f74a2e09f0e assets/dtbwg/models/item/aspen_branch.json
@@ -19,6 +19,11 @@ cdffd792972716b26e83d8911e6a7141ef356d3c assets/dtbwg/models/item/ebony_branch.j
 9dfdaacc591b5aa41cd872716c980fc8953c540c assets/dtbwg/models/item/fir_branch.json
 f1f803771accfd99c7efb3b46b42fc668ec13519 assets/dtbwg/models/item/fir_seed.json
 caa526ecea83c03ef860669ccb8fca327282dfb2 assets/dtbwg/models/item/giant_flower_branch.json
+a3739ee63c6f78e0d65141c6e08c442524daf3c1 assets/dtbwg/models/item/giga_blue_spruce_seed.json
+d64a4674fd48285aadbd733813a4c9c6a324397e assets/dtbwg/models/item/giga_orange_spruce_seed.json
+7630cc602ab61b7c2a6b12344631ed906fbe9962 assets/dtbwg/models/item/giga_red_spruce_seed.json
+a98d2f9a952969544772aeb2fbb04d35aa7768ca assets/dtbwg/models/item/giga_spruce_seed.json
+724c36f1ee02054615b7b980ff15064fa39d911c assets/dtbwg/models/item/giga_yellow_spruce_seed.json
 94bbf8638cf835b45223b25712d786a19a2e8208 assets/dtbwg/models/item/green_enchanted_branch.json
 6f72b09c240f4b51194e99f604731235b512c749 assets/dtbwg/models/item/green_enchanted_seed.json
 cdc7ca9af1534942516a649874088574760fb666 assets/dtbwg/models/item/green_mushroom_seed.json

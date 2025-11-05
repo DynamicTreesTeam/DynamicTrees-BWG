@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-05T13:46:19.8259056	Block States: dtbwg
+// 1.20.1	2025-11-05T16:54:09.1581642	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -48,6 +48,11 @@ fdb7ec5dd84f94adbfd25568638d50de8e841baa assets/dtbwg/blockstates/flowering_indi
 48474ce09eabcec7cffa645b46b674c70da3214f assets/dtbwg/blockstates/flowering_palo_verde_leaves.json
 08c4b876adf27885735929deeefe5ef326da5623 assets/dtbwg/blockstates/flowering_skyris_leaves.json
 55e367351b603502888dacc8c537bea4cfc184b1 assets/dtbwg/blockstates/giant_flower_branch.json
+3865df142bc64906f42274e511de12174aadb351 assets/dtbwg/blockstates/giga_blue_spruce_sapling.json
+dbfe945eed5176d4d75e4443d5dde4121982e7df assets/dtbwg/blockstates/giga_orange_spruce_sapling.json
+b8ba45ce4bc7a01f971c1859d25befa403f6cf05 assets/dtbwg/blockstates/giga_red_spruce_sapling.json
+5028fce00bd8626e498a0132983261e3f628a3e0 assets/dtbwg/blockstates/giga_spruce_sapling.json
+14977b697e5d01c26912e47a5cdd0fb565149c74 assets/dtbwg/blockstates/giga_yellow_spruce_sapling.json
 b19cd71840fdd3b87fb85e252f6e99dfa44e3917 assets/dtbwg/blockstates/green_apple_skyris_leaves.json
 757acf1cf6d3dc2ad13aa1290a178e7498c75a8d assets/dtbwg/blockstates/green_enchanted_branch.json
 41f098d69ccde765a60c6a7cfa42cb60c39080f7 assets/dtbwg/blockstates/green_enchanted_leaves.json
@@ -268,6 +273,11 @@ f1d74cb26cd84b648660ec624221cebf8e37632e assets/dtbwg/models/block/saplings/blue
 0c8688341301638fb9ff60243b021b698e6a74de assets/dtbwg/models/block/saplings/cypress.json
 7da229f38bb6314283c2f5f07745859bcd8c9a9b assets/dtbwg/models/block/saplings/ebony.json
 702874664deb6b219a60ce738fd5362b1e8faa13 assets/dtbwg/models/block/saplings/fir.json
+4a7b2ff574c2bb0bc50f99ed82bf80e47e16d1e1 assets/dtbwg/models/block/saplings/giga_blue_spruce.json
+6716b12ddb346133d5ef4077791d3bcd90a742a4 assets/dtbwg/models/block/saplings/giga_orange_spruce.json
+2f01fd30572db4404f6032817d95f9b7788c45bb assets/dtbwg/models/block/saplings/giga_red_spruce.json
+0476dd506c672a49ce2e5dca57c9f2ffcbc8d608 assets/dtbwg/models/block/saplings/giga_spruce.json
+be372483577e4e877d3ee77669101f8c0631615b assets/dtbwg/models/block/saplings/giga_yellow_spruce.json
 a48661c15085c64309cfd8bd0c071aba5eb8731f assets/dtbwg/models/block/saplings/green_enchanted.json
 b88116c75fe117acf04b7e73e39f6b10eaf3c3f3 assets/dtbwg/models/block/saplings/green_mushroom.json
 5dd1bd931fb397350b4bec4e1723feb862729dbb assets/dtbwg/models/block/saplings/holly.json

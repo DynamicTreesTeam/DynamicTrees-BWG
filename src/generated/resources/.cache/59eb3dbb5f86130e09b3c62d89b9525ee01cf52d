@@ -1,4 +1,4 @@
-// 1.20.1	2025-11-05T13:46:19.8300902	Loot Tables
+// 1.20.1	2025-11-05T16:54:09.162167	Loot Tables
 8c88c8a74b42e9e6b8223cdc6ec6f35ef3ab8752 data/dtbwg/loot_tables/blocks/allium_leaves.json
 c8fa2e65eef15787197e76bca3a77d2557efb40a data/dtbwg/loot_tables/blocks/ancient_ebony_leaves.json
 6f3de234e3bb44f79c8b6bbf627bca383a4188cc data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
@@ -213,6 +213,11 @@ df78025eef1e89646ec4da93850441895a4140d3 data/dtbwg/loot_tables/trees/voluntary/
 b89f251fe520e120a46f6001b035b930fed55ca6 data/dtbwg/loot_tables/trees/voluntary/cypress.json
 0e5c88f48ccc0d053af741ebb7d52c005dbb241b data/dtbwg/loot_tables/trees/voluntary/ebony.json
 ee26c8426dbb64d24f8116355fa63eeefd2f42f0 data/dtbwg/loot_tables/trees/voluntary/fir.json
+fbf8064526f33304042c2f3a2c900b6c01c06427 data/dtbwg/loot_tables/trees/voluntary/giga_blue_spruce.json
+4ef2417909f9a893e59e31bc309f7e90171b0ad2 data/dtbwg/loot_tables/trees/voluntary/giga_orange_spruce.json
+a779fe42038733624fb25288d1cfce882f4609d3 data/dtbwg/loot_tables/trees/voluntary/giga_red_spruce.json
+8c784c7e14fc17407b44d9e10ea0e5616355fc4a data/dtbwg/loot_tables/trees/voluntary/giga_spruce.json
+9848c96a93ad25b09355f0d9b28780f69541ed61 data/dtbwg/loot_tables/trees/voluntary/giga_yellow_spruce.json
 916ef85fc61eceb265c7f2d4cfd4cf5afc2b9712 data/dtbwg/loot_tables/trees/voluntary/green_enchanted.json
 64e1d5a02790e7f2153669cf30172caec5ec0023 data/dtbwg/loot_tables/trees/voluntary/green_mushroom.json
 0e4951b136165349ef19bd49900a9a4a902f3625 data/dtbwg/loot_tables/trees/voluntary/holly.json
