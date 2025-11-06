@@ -122,7 +122,7 @@ dependencies {
     implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
     implementation "maven.modrinth:dynamictreesplus:${dynamic_trees_plus_version}"
     implementation "maven.modrinth:oh-the-biomes-weve-gone:${bwg_version}"
-    implementation "dev.corgitaco:Oh-The-Trees-Youll-Grow-neoforge:${minecraft_version}-${ohthetreesyoullgrow_version}"
+    implementation "maven.modrinth:oh-the-trees-youll-grow:${ohthetreesyoullgrow_version}"
 
     runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
     runtimeOnly "dev.corgitaco:Corgilib-NeoForge:${minecraft_version}-${corgilib_version}"

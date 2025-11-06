@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-05T20:31:32.0978303	Item Models: dtbwg
+// 1.21.1	2025-11-06T10:36:44.9880115	Item Models: dtbwg
 6f971763ba50d2ce6169d35b6833d98e90daec53 assets/dtbwg/models/item/allium_seed.json
 976835ce375471464f989727e4ae09df143f6b64 assets/dtbwg/models/item/araucaria_seed.json
 4871c78872161db0ceab3983c2571f74a2e09f0e assets/dtbwg/models/item/aspen_branch.json
@@ -40,7 +40,11 @@ f74be181f0add61e283240b564442509a9ab3e40 assets/dtbwg/models/item/jacaranda_seed
 3579822421281eedc1e2adbf1677ed9ad97ecf8e assets/dtbwg/models/item/maple_seed.json
 9ebb226a557c5c955e7e08b9f5a4c6aebc733954 assets/dtbwg/models/item/mega_blue_spruce_seed.json
 ad7f22621a82ff09e707cb55b6fc8957dd1ae5e2 assets/dtbwg/models/item/mega_orange_spruce_seed.json
+390e27072d1e88e9b4684663b4f762a7a1a08f52 assets/dtbwg/models/item/mega_palm_seed.json
+644876e9f8c68850cf72e18cbc31f375260e0180 assets/dtbwg/models/item/mega_pine_seed.json
+be66e2384fcbc6f3895bdc2f41a1898c85c25773 assets/dtbwg/models/item/mega_rainbow_eucalyptus_seed.json
 3d54382a1fbb23a04be6c836a72e3d02a15c2604 assets/dtbwg/models/item/mega_red_spruce_seed.json
+284bab0cb0949eaba10b96a62de9a02b0d2cefbb assets/dtbwg/models/item/mega_willow_seed.json
 9ea79b056124e2a3fcad5f13e8ea16d294a99e22 assets/dtbwg/models/item/mega_yellow_spruce_seed.json
 3016bbdc89d18d0d0e86d69a06f557cebd13f56f assets/dtbwg/models/item/orange_birch_seed.json
 27b77c22d113dddbf81ddaa646bbbd9a13a9971e assets/dtbwg/models/item/orange_spruce_seed.json

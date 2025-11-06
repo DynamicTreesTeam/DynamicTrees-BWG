@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-05T20:42:22.1764268	Block States: dtbwg
+// 1.21.1	2025-11-06T10:36:44.9930639	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -84,7 +84,11 @@ bcf1570db169656dd7a6f55a2ab6cbc75d54a660 assets/dtbwg/blockstates/mahogany_branc
 b67a47a3c63fce987abf0d64bdf4d5af3994f836 assets/dtbwg/blockstates/mega_blue_spruce_sapling.json
 0c5fec332b807aa4107844d3cf0771e692a53177 assets/dtbwg/blockstates/mega_orange_spruce_sapling.json
 b1d2a58e09c08a2cc667d94541ad47afb9a9c11f assets/dtbwg/blockstates/mega_palm_leaves.json
+3b338121cf2872f184d1d5c528dc3563887d489a assets/dtbwg/blockstates/mega_palm_sapling.json
+30250b22e9d2621a02cc205835089f55bc536c77 assets/dtbwg/blockstates/mega_pine_sapling.json
+2db871ea842f6fb34923252d5b8a559455e83e31 assets/dtbwg/blockstates/mega_rainbow_eucalyptus_sapling.json
 2dac4ca529e1134b62053d4b2955c247e46b317c assets/dtbwg/blockstates/mega_red_spruce_sapling.json
+de859830de45c71272388b7908e14fac24dcc915 assets/dtbwg/blockstates/mega_willow_sapling.json
 323727860505abb1cfffc1efb46d4fcf11dc6310 assets/dtbwg/blockstates/mega_yellow_spruce_sapling.json
 ab47df46795bc4ee1d88b446b0305ee474c1ed9c assets/dtbwg/blockstates/northern_spruce_leaves.json
 9b73d2419e07259eb9681640ac018a6aeb7e7e93 assets/dtbwg/blockstates/oak_twiglet_leaves.json
@@ -284,7 +288,11 @@ e2ac5c87765e553019c0fc0bb620bf976c06bcaf assets/dtbwg/models/block/saplings/maho
 cfc538135e215051eb84cd13629b43a7df79a909 assets/dtbwg/models/block/saplings/maple.json
 4a7b2ff574c2bb0bc50f99ed82bf80e47e16d1e1 assets/dtbwg/models/block/saplings/mega_blue_spruce.json
 6716b12ddb346133d5ef4077791d3bcd90a742a4 assets/dtbwg/models/block/saplings/mega_orange_spruce.json
+55854f300c3d4fa42580a5bf008264e455268cd6 assets/dtbwg/models/block/saplings/mega_palm.json
+c376fbe48b6e6ce8583c18c8923a5af7c8c6e06e assets/dtbwg/models/block/saplings/mega_pine.json
+1aa2bf19970ce1ca4dc285b3e262d8d201e59874 assets/dtbwg/models/block/saplings/mega_rainbow_eucalyptus.json
 2f01fd30572db4404f6032817d95f9b7788c45bb assets/dtbwg/models/block/saplings/mega_red_spruce.json
+bafaeb9ef3fe07184f8fda566f67ce88a9090f92 assets/dtbwg/models/block/saplings/mega_willow.json
 be372483577e4e877d3ee77669101f8c0631615b assets/dtbwg/models/block/saplings/mega_yellow_spruce.json
 addd5151b8ccf1684ed8ed8e43e3cdee5bc833c2 assets/dtbwg/models/block/saplings/orange_birch.json
 d482aedd32f2ecd47c1f029dedac5e071350344d assets/dtbwg/models/block/saplings/orange_spruce.json
