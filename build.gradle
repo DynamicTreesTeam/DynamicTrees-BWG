@@ -51,6 +51,9 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    flatDir {
+        dir 'libs'
+    }
 }
 
 base {
@@ -119,7 +122,8 @@ configurations {
 }
 
 dependencies {
-    implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
+    implementation "libs:dynamictrees-neoforge:1.21.1-1.5.0-BETA09"
+    //implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
     implementation "maven.modrinth:dynamictreesplus:${dynamic_trees_plus_version}"
     implementation "maven.modrinth:oh-the-biomes-weve-gone:${bwg_version}"
     implementation "maven.modrinth:oh-the-trees-youll-grow:${ohthetreesyoullgrow_version}"

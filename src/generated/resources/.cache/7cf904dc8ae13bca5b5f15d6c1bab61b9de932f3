@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-06T10:36:44.9930639	Block States: dtbwg
+// 1.21.1	2025-11-06T20:19:31.1171085	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -82,6 +82,12 @@ bcf1570db169656dd7a6f55a2ab6cbc75d54a660 assets/dtbwg/blockstates/mahogany_branc
 1d4424fa21b81a117ba91eb0619ea3180697f0cd assets/dtbwg/blockstates/maple_root.json
 54de97a89df8d55681d59b24fc5c130778752bfc assets/dtbwg/blockstates/maple_sapling.json
 b67a47a3c63fce987abf0d64bdf4d5af3994f836 assets/dtbwg/blockstates/mega_blue_spruce_sapling.json
+7cd326afa9ba1b251b2126966423406dcbd2d68f assets/dtbwg/blockstates/mega_cypress_sapling.json
+f11f60fb0f4b19e0b34eb719d50e3063b55c2a46 assets/dtbwg/blockstates/mega_fir_sapling.json
+82bff69d202778c8ee973c841fb3929c662df06f assets/dtbwg/blockstates/mega_holly_sapling.json
+23c1123f15e77d5b7479b60761eb4add2bca701e assets/dtbwg/blockstates/mega_indigo_jacaranda_sapling.json
+25381d50c36547d36823980101a7fb5cb44b13bc assets/dtbwg/blockstates/mega_jacaranda_sapling.json
+3660fe23f6da17441d87625a0289208fc0ac86b7 assets/dtbwg/blockstates/mega_mahogany_sapling.json
 0c5fec332b807aa4107844d3cf0771e692a53177 assets/dtbwg/blockstates/mega_orange_spruce_sapling.json
 b1d2a58e09c08a2cc667d94541ad47afb9a9c11f assets/dtbwg/blockstates/mega_palm_leaves.json
 3b338121cf2872f184d1d5c528dc3563887d489a assets/dtbwg/blockstates/mega_palm_sapling.json
@@ -287,6 +293,12 @@ cf0eb439a6745c4a3c759daa7943b3409a1da5ef assets/dtbwg/models/block/saplings/iron
 e2ac5c87765e553019c0fc0bb620bf976c06bcaf assets/dtbwg/models/block/saplings/mahogany.json
 cfc538135e215051eb84cd13629b43a7df79a909 assets/dtbwg/models/block/saplings/maple.json
 4a7b2ff574c2bb0bc50f99ed82bf80e47e16d1e1 assets/dtbwg/models/block/saplings/mega_blue_spruce.json
+dc96a7349d1a24458be654a71a16a930f5d987f6 assets/dtbwg/models/block/saplings/mega_cypress.json
+c40facc2585acc885ae3807535b0e4933e6e6c5b assets/dtbwg/models/block/saplings/mega_fir.json
+71f04adf8a87397b87da2cca188135bdc6bbf0f0 assets/dtbwg/models/block/saplings/mega_holly.json
+9d42faf64239a061fccc1059fe08c0d725e0dcca assets/dtbwg/models/block/saplings/mega_indigo_jacaranda.json
+84a55e2b2136944deb0892d497d7cf5a52278173 assets/dtbwg/models/block/saplings/mega_jacaranda.json
+7bd66fcc3c1907e1608340cc8178da28a43209ba assets/dtbwg/models/block/saplings/mega_mahogany.json
 6716b12ddb346133d5ef4077791d3bcd90a742a4 assets/dtbwg/models/block/saplings/mega_orange_spruce.json
 55854f300c3d4fa42580a5bf008264e455268cd6 assets/dtbwg/models/block/saplings/mega_palm.json
 c376fbe48b6e6ce8583c18c8923a5af7c8c6e06e assets/dtbwg/models/block/saplings/mega_pine.json

@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-06T10:36:45.0021014	Loot Tables
+// 1.21.1	2025-11-06T20:19:31.1234722	Loot Tables
 15a0932138b3d6114d49ec3d8cf628d34ac3f334 data/dtbwg/loot_table/blocks/allium_leaves.json
 d38cb0b748ebbbb40cd6a2c5e9796b4c3abc00da data/dtbwg/loot_table/blocks/ancient_ebony_leaves.json
 60f9d8c0c531d4c78483c385411b5324f7d7c253 data/dtbwg/loot_table/blocks/ancient_oak_leaves.json
@@ -228,6 +228,12 @@ a779fe42038733624fb25288d1cfce882f4609d3 data/dtbwg/loot_table/trees/voluntary/g
 8b31b42f3bddc93464e86f7e9b8da8e0a59cb3db data/dtbwg/loot_table/trees/voluntary/mahogany.json
 fc8b46bbfc10ce662da36a187dd165371f9e5fb6 data/dtbwg/loot_table/trees/voluntary/maple.json
 8eee526ba4595f45dd3c1f0a3c5bda9b79638ca9 data/dtbwg/loot_table/trees/voluntary/mega_blue_spruce.json
+4784791fb4a5e14cd1196c2f0fbc680b8f551303 data/dtbwg/loot_table/trees/voluntary/mega_cypress.json
+2d0e4d2fb912034b4d75c640af0bbee59173b009 data/dtbwg/loot_table/trees/voluntary/mega_fir.json
+c47940d2089f5e61a4e903afd028aa7e06f32b67 data/dtbwg/loot_table/trees/voluntary/mega_holly.json
+2f7d544b5840c3b7b15808a5b981c8bce5c2de3b data/dtbwg/loot_table/trees/voluntary/mega_indigo_jacaranda.json
+7b379271bac55ff956ad95e725e9c959ea1accbc data/dtbwg/loot_table/trees/voluntary/mega_jacaranda.json
+84cd9dfb78a9782db23a5ccf839be141ed8a976a data/dtbwg/loot_table/trees/voluntary/mega_mahogany.json
 b530088ebd50736833973faa49b9e876d53e7f29 data/dtbwg/loot_table/trees/voluntary/mega_orange_spruce.json
 df419016330f407b2af91cdbc06b1c7b8e037ec3 data/dtbwg/loot_table/trees/voluntary/mega_palm.json
 4d0f5e93f55219276b65477e64dc5285df7991ab data/dtbwg/loot_table/trees/voluntary/mega_pine.json

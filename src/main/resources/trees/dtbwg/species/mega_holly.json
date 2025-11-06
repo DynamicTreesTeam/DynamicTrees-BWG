@@ -42,6 +42,13 @@
       }
     }
   ],
-  "generate_seed": false,
-  "generate_sapling": false
+  "generate_seed": true,
+  "generate_sapling": true,
+  "sapling_shape": "fat_sapling",
+  "model_overrides": {
+    "sapling": "dynamictrees:block/smartmodel/large_sapling"
+  },
+  "lang_overrides": {
+    "seed": "Mega Holy Seeds"
+  }
 }
