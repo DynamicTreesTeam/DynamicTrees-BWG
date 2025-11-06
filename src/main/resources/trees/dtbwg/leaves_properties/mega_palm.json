@@ -4,9 +4,10 @@
   "cell_kit": "dtbwg:palm",
   "color": "#BBFF59",
   "model_overrides": {
-  "leaves": "biomeswevegone:block/palm_leaves"
-},
+    "leaves": "biomeswevegone:block/palm_leaves"
+  },
   "texture_overrides": {
     "leaves": "biomeswevegone:block/palm/leaves"
-  }
+  },
+  "seed_drop_chances": [0.03125, 0.0625, 0.09375, 0.125]
 }

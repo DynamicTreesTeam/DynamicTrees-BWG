@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-06T20:19:31.1234722	Loot Tables
+// 1.21.1	2025-11-06T20:45:18.6919448	Loot Tables
 15a0932138b3d6114d49ec3d8cf628d34ac3f334 data/dtbwg/loot_table/blocks/allium_leaves.json
 d38cb0b748ebbbb40cd6a2c5e9796b4c3abc00da data/dtbwg/loot_table/blocks/ancient_ebony_leaves.json
 60f9d8c0c531d4c78483c385411b5324f7d7c253 data/dtbwg/loot_table/blocks/ancient_oak_leaves.json
@@ -38,13 +38,13 @@ c903e10dbca3249353a2008e6fa172bcf9e3e960 data/dtbwg/loot_table/blocks/holly_leav
 a14775c14920add01220898663f76897682750aa data/dtbwg/loot_table/blocks/jacaranda_leaves.json
 9bb09b5cec600b45c37fd713f345adbefa0d8542 data/dtbwg/loot_table/blocks/mahogany_leaves.json
 c3f065d35598485aca53ddea0de9f5f1aaaf76d3 data/dtbwg/loot_table/blocks/maple_leaves.json
-1fb8a49cb80092e469480149b2131b3bf8434928 data/dtbwg/loot_table/blocks/mega_palm_leaves.json
+c44d8a2455fd9b3b5207adc420fd49bfd4f2d032 data/dtbwg/loot_table/blocks/mega_palm_leaves.json
 1dedf10177af1ffc19922326aeafa3e60dfc8a75 data/dtbwg/loot_table/blocks/northern_spruce_leaves.json
 8083a7010c3c5a0e248608cd6ad3b127a57acbf5 data/dtbwg/loot_table/blocks/oak_twiglet_leaves.json
 d6f62d63b0391fd5c0b765fcc6c63243c27e5d76 data/dtbwg/loot_table/blocks/orange_birch_leaves.json
 b1f76802d6df2c777d2ff46d30a8b2113e3c4f17 data/dtbwg/loot_table/blocks/orange_spruce_leaves.json
 0c9219753277d280548dfc0029e068e3c9da7896 data/dtbwg/loot_table/blocks/orchard_leaves.json
-94d72c2462eca32224725d87a05300f56a637bda data/dtbwg/loot_table/blocks/palm_leaves.json
+30cb6cc57a33d62cf988a962335d465dc5b07cab data/dtbwg/loot_table/blocks/palm_leaves.json
 473cea979a4cd1dd85963c6222082a96f3b72b80 data/dtbwg/loot_table/blocks/palo_verde_leaves.json
 e3e3522d35e13947c02bd2abf1b6cb87326c2133 data/dtbwg/loot_table/blocks/pine_leaves.json
 8a310b73264cf1191fc530585ef83ebd99b2eada data/dtbwg/loot_table/blocks/pink_allium_leaves.json
@@ -165,13 +165,13 @@ ae54aef6d92631b3f0fb0f3998bbe7cd33705a70 data/dtbwg/loot_table/trees/leaves/flow
 59ffb7521da6be0ad0cffae2c71bdaf44dc68f8c data/dtbwg/loot_table/trees/leaves/jacaranda.json
 66d5ec21cca0e77667acb39bf6b9cc034253b8d8 data/dtbwg/loot_table/trees/leaves/mahogany.json
 b7b327fccef406d9950acb7892103ef2b4ea2bb0 data/dtbwg/loot_table/trees/leaves/maple.json
-8ee0cc73b52a422a8966040b042477657151b296 data/dtbwg/loot_table/trees/leaves/mega_palm.json
+d47064dd12652a8bf7a637a4d4a192ac6eb22a76 data/dtbwg/loot_table/trees/leaves/mega_palm.json
 d0f6a6007b645d974af816caa2dab08087c2167e data/dtbwg/loot_table/trees/leaves/northern_spruce.json
 2656bb3f1ec3dabc424ecbac500ec4fa732dbfa4 data/dtbwg/loot_table/trees/leaves/oak_twiglet.json
 248abb7273ac3be73efa9b0876ef7f8ee37a39a0 data/dtbwg/loot_table/trees/leaves/orange_birch.json
 2e37252d97cb3afd9ca5acb3d3a9f2700ea69797 data/dtbwg/loot_table/trees/leaves/orange_spruce.json
 fe059e781a3f0a87dee23f3643f30665bda0cd04 data/dtbwg/loot_table/trees/leaves/orchard.json
-b7915e4490152c3ecfe538ec1a0e021f0c13dc31 data/dtbwg/loot_table/trees/leaves/palm.json
+ab9caebbd63b58189e05511b15a8afbeb963040a data/dtbwg/loot_table/trees/leaves/palm.json
 4755d821db187bd358dc569b9ee69d86a8587319 data/dtbwg/loot_table/trees/leaves/palo_verde.json
 1103b58d5963748850874205ad76b24c3ebc3db4 data/dtbwg/loot_table/trees/leaves/pine.json
 411e891b4224d78d03cf9a3026d8f27b12df6081 data/dtbwg/loot_table/trees/leaves/pink_allium.json

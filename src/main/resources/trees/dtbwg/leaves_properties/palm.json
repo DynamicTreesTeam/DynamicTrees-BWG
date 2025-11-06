@@ -8,5 +8,6 @@
   },
   "texture_overrides": {
     "leaves": "biomeswevegone:block/palm/leaves"
-  }
+  },
+  "seed_drop_chances": [0.03125, 0.0625, 0.09375, 0.125]
 }
