@@ -32,7 +32,7 @@ import dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurat
 
 import java.util.function.Supplier;
 
-@EventBusSubscriber(bus=EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class DTBWGRegistries {
 
     private static VoxelShape box(double p_49797_, double p_49798_, double p_49799_, double p_49800_, double p_49801_, double p_49802_) {

@@ -6,6 +6,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 public class DTBWGClient {
 
+    @SuppressWarnings("deprecation")
     public static void setup() {
         for (Block block : new Block[]{DTBWGRegistries.WITCH_HAZEL_BRANCH.get()
                 //,DTBWGRegistries.ARISIAN_BLOOM_BRANCH.get(), DTBWGRegistries.EMBUR_GEL_BRANCH.get(),
