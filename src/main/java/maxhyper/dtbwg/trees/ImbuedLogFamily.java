@@ -1,5 +1,6 @@
 package maxhyper.dtbwg.trees;
 
+import com.dtteam.dynamictrees.data.DTDataProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
@@ -77,7 +78,7 @@ public class ImbuedLogFamily extends Family {
         return Optionals.ofBlock(primitiveImbuedLog);
     }
 
-    public void generateStateData(DTBlockStateProvider provider) {
+    public void generateStateData(DTDataProvider.BlockState provider) {
         super.generateStateData(provider);
         (this.imbuedBranchStateGenerator.get()).generate(provider, this);
     }

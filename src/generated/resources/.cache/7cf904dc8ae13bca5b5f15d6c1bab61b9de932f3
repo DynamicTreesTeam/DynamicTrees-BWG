@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-06T20:19:31.1171085	Block States: dtbwg
+// 1.21.1	2025-11-07T18:17:48.1678231	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -64,6 +64,8 @@ f811da7c236646f2ee3c0f16807a2bf3a3c08f3a assets/dtbwg/blockstates/green_enchante
 608ad176101e0c9cf7714a4a79d067613d07154a assets/dtbwg/blockstates/holly_branch.json
 840195c9d782f1d67c379724f74689635f488c1f assets/dtbwg/blockstates/holly_leaves.json
 8d4c0b193770cd86dbf022ec82279b7b81fba5f4 assets/dtbwg/blockstates/holly_sapling.json
+2cdb3556de273f827acd5c904af82263a7848c91 assets/dtbwg/blockstates/imbued_blue_enchanted_branch.json
+cb0186cbe2f15298cabc9904f50ecd4c614e7372 assets/dtbwg/blockstates/imbued_green_enchanted_branch.json
 fd4f38ca426b3ec0ccf1d1afbc32d3637dda935e assets/dtbwg/blockstates/indigo_jacaranda_leaves.json
 225ecd83505baf434a3a014a879546e6c897d8fb assets/dtbwg/blockstates/indigo_jacaranda_sapling.json
 858a414df1a89a1a273e74f56353480fee19a728 assets/dtbwg/blockstates/ironwood_branch.json
@@ -235,6 +237,8 @@ e789a57f1e244f43b6719dbdec7481a62c3c3e59 assets/dtbwg/models/block/cypress_branc
 85886eb70b4cb25bd589dc1591840a33c4002d06 assets/dtbwg/models/block/giant_flower_branch.json
 8f39bbe6930f719adcfc53f6f7f14222a9a6e620 assets/dtbwg/models/block/green_enchanted_branch.json
 61f19256fbb675e3595f176c20c5a3bda59a4ba3 assets/dtbwg/models/block/holly_branch.json
+59cd5310bf46b71769e5877eced420bf0422f4df assets/dtbwg/models/block/imbued_blue_enchanted_branch.json
+434c09699048073de0e1e9c15d0b5074377169a8 assets/dtbwg/models/block/imbued_green_enchanted_branch.json
 2e58145e97523338953869350441de9ec7198d59 assets/dtbwg/models/block/ironwood_branch.json
 6eee150f8ab2f05f1ee99c25d01079a3e3804563 assets/dtbwg/models/block/jacaranda_branch.json
 cfa481a5139d497be224833e015c9fd9f35238f3 assets/dtbwg/models/block/jacaranda_root.json
