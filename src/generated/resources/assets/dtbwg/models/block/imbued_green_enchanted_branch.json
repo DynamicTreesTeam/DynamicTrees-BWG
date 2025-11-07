@@ -1,0 +1,8 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "biomeswevegone:block/green_enchanted/imbued_wood",
+    "rings": "biomeswevegone:block/green_enchanted/log_top"
+  },
+  "family": "dtbwg:green_enchanted"
+}
