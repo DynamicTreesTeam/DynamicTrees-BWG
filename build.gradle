@@ -26,6 +26,10 @@ repositories {
         }
     }
     maven {
+        name "DynamicTrees maven"
+        url "https://harleyoconnor.com/maven"
+    }
+    maven {
         name "jTDev MavenReleases"
         url "https://maven.jt-dev.tech/releases"
     }
@@ -38,6 +42,14 @@ repositories {
     maven {
         name "Jared's maven"
         url "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "jTDev MavenReleases"
+        url = uri("https://maven.jt-dev.tech/releases")
+    }
+    maven {
+        name "Forge maven" //For Terrablender
+        url "https://maven.minecraftforge.net/"
     }
     exclusiveContent {
         forRepository {
@@ -128,8 +140,9 @@ configurations {
 
 dependencies {
     // Dynamic Trees
+    //implementation "com.dtteam.dynamictrees:dynamictrees-neoforge-${minecraft_version}:${dynamic_trees_version}"
     implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
-    implementation "maven.modrinth:dynamictreesplus:${dynamic_trees_plus_version}"
+    implementation "com.dtteam.dynamictreesplus:DynamicTreesPlus:${dynamic_trees_plus_version}"
 
     // Utilities
     runtimeOnly "maven.modrinth:jade:${jade_version}+neoforge"
@@ -137,11 +150,11 @@ dependencies {
     runtimeOnly "cc.tweaked:cc-tweaked-${minecraft_version}-forge:${cc_version}"
 
     // Addon
-    implementation "maven.modrinth:oh-the-biomes-weve-gone:${bwg_version}"
-    implementation "maven.modrinth:oh-the-trees-youll-grow:${ohthetreesyoullgrow_version}"
+    implementation "net.potionstudios:Oh-The-Biomes-Weve-Gone-NeoForge:${bwg_version}"
+    implementation "dev.corgitaco:Oh-The-Trees-Youll-Grow-neoforge:${minecraft_version}-${ohthetreesyoullgrow_version}"
     runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
     runtimeOnly "dev.corgitaco:Corgilib-NeoForge:${minecraft_version}-${corgilib_version}"
-    runtimeOnly "maven.modrinth:TerraBlender:${terrablender_version}"
+    runtimeOnly "com.github.glitchfiend:TerraBlender-neoforge:${minecraft_version}-${terrablender_version}"
 }
 
 tasks.withType(ProcessResources).configureEach {
