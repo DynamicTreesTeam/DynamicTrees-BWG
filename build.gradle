@@ -17,7 +17,6 @@ version = mod_version
 group = mod_group_id
 
 repositories {
-    // Add here additional repositories if required by some of the dependencies below.
     exclusiveContent {
         forRepository {
             maven {
@@ -30,8 +29,30 @@ repositories {
         }
     }
     maven {
+        name "DynamicTrees maven"
+        url "https://harleyoconnor.com/maven"
+    }
+    maven {
         name "jTDev MavenReleases"
         url "https://maven.jt-dev.tech/releases"
+    }
+    maven {
+        url "https://maven.squiddev.cc"
+        content {
+            includeGroup("cc.tweaked")
+        }
+    }
+    maven {
+        name "Jared's maven"
+        url "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "jTDev MavenReleases"
+        url = uri("https://maven.jt-dev.tech/releases")
+    }
+    maven {
+        name "Forge maven" //For Terrablender
+        url "https://maven.minecraftforge.net/"
     }
     exclusiveContent {
         forRepository {
@@ -63,11 +84,9 @@ base {
     archivesName = mod_id
 }
 
-// Mojang ships Java 21 to end users in 1.21.1, so mods should target Java 21.
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 neoForge {
-    // Specify the version of NeoForge to use.
     version = project.neo_version
 
     parchment {
@@ -78,8 +97,6 @@ neoForge {
     runs {
         client {
             client()
-
-            // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
@@ -94,6 +111,7 @@ neoForge {
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
+
         data {
             data()
 
@@ -104,7 +122,6 @@ neoForge {
                     '--existing-mod', 'biomeswevegone'
         }
 
-        // applies to all the run configs above
         configureEach {
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             logLevel = org.slf4j.event.Level.DEBUG
@@ -125,45 +142,49 @@ configurations {
 }
 
 dependencies {
-   // implementation "libs:dynamictrees-neoforge:1.21.1-1.5.0-BETA09"
+    // Dynamic Trees
+    //implementation "com.dtteam.dynamictrees:dynamictrees-neoforge-${minecraft_version}:${dynamic_trees_version}"
     implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
-    implementation "maven.modrinth:dynamictreesplus:${dynamic_trees_plus_version}"
-    implementation "maven.modrinth:oh-the-biomes-weve-gone:${bwg_version}"
-    implementation "maven.modrinth:oh-the-trees-youll-grow:${ohthetreesyoullgrow_version}"
+    implementation "com.dtteam.dynamictreesplus:DynamicTreesPlus:${dynamic_trees_plus_version}"
 
+    // Utilities
+    runtimeOnly "maven.modrinth:jade:${jade_version}+neoforge"
+    runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+    runtimeOnly "cc.tweaked:cc-tweaked-${minecraft_version}-forge:${cc_version}"
+
+    // Addon
+    implementation "net.potionstudios:Oh-The-Biomes-Weve-Gone-NeoForge:${bwg_version}"
+    implementation "dev.corgitaco:Oh-The-Trees-Youll-Grow-neoforge:${minecraft_version}-${ohthetreesyoullgrow_version}"
     runtimeOnly "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
     runtimeOnly "dev.corgitaco:Corgilib-NeoForge:${minecraft_version}-${corgilib_version}"
-    runtimeOnly "maven.modrinth:TerraBlender:${terrablender_version}"
-    runtimeOnly "curse.maven:jade-324717:6853386"
+    runtimeOnly "com.github.glitchfiend:TerraBlender-neoforge:${minecraft_version}-${terrablender_version}"
 }
 
-// This block of code expands all declared replace properties in the specified resource targets.
-// A missing property will result in an error. Properties are expanded using ${} Groovy notation.
-var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+tasks.withType(ProcessResources).configureEach {
     var replaceProperties = [
-            minecraft_version      : minecraft_version,
-            minecraft_version_range: minecraft_version_range,
-            neo_version            : neo_version,
-            loader_version_range   : loader_version_range,
-            mod_id                 : mod_id,
-            mod_name               : mod_name,
-            mod_license            : mod_license,
-            mod_version            : mod_version,
-            mod_authors            : mod_authors,
-            mod_description        : mod_description,
-            dynamic_trees_version  : dynamic_trees_version,
-            dynamic_trees_plus_version : dynamic_trees_plus_version,
-            bwg_version               : bwg_version
+            minecraft_version           : minecraft_version,
+            minecraft_version_range     : minecraft_version_range,
+            neo_version                 : neo_version,
+            loader_version_range        : loader_version_range,
+            mod_id                      : mod_id,
+            mod_name                    : mod_name,
+            mod_license                 : mod_license,
+            mod_version                 : mod_version,
+            mod_authors                 : mod_authors,
+            mod_credits                 : mod_credits,
+            mod_description             : mod_description,
+            mod_url                     : mod_url,
+            mod_issue_url               : mod_issue_url,
+            dynamic_trees_version       : dynamic_trees_version,
+            dynamic_trees_plus_version  : dynamic_trees_plus_version,
+            bwg_version                 : bwg_version
     ]
     inputs.properties replaceProperties
-    expand replaceProperties
-    from "src/main/templates"
-    into "build/generated/sources/modMetadata"
+    filesMatching(["META-INF/neoforge.mods.toml"]) {
+        expand replaceProperties
+    }
 }
-sourceSets.main.resources.srcDir generateModMetadata
-neoForge.ideSyncTask generateModMetadata
 
-// Example configuration to allow publishing using the maven-publish plugin
 publishing {
     publications {
         register('mavenJava', MavenPublication) {
@@ -208,10 +229,9 @@ publishMods {
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    options.encoding = 'UTF-8'
 }
 
-// IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.
 idea {
     module {
         downloadSources = true
