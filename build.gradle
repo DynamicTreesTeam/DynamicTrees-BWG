@@ -143,8 +143,7 @@ configurations {
 
 dependencies {
     // Dynamic Trees
-    //implementation "com.dtteam.dynamictrees:dynamictrees-neoforge-${minecraft_version}:${dynamic_trees_version}"
-    implementation "maven.modrinth:dynamictrees:${dynamic_trees_version}"
+    implementation "com.dtteam.dynamictrees:dynamictrees-neoforge-${minecraft_version}:${dynamic_trees_version}"
     implementation "com.dtteam.dynamictreesplus:DynamicTreesPlus:${dynamic_trees_plus_version}"
 
     // Utilities

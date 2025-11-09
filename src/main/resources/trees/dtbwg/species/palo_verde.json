@@ -12,7 +12,7 @@
     "wet": 0.75
   },
   "perfect_biomes": {
-    "tag": "#(minecraft:is_badlands)|(forge:is_desert)"
+    "tag": "#(minecraft:is_badlands)|(c:is_desert)"
   },
   "primitive_sapling": "biomeswevegone:palo_verde_sapling",
   "acceptable_soils": [

@@ -1,0 +1,21 @@
+{
+  "type": "underground_roots",
+  "common_leaves": "dtbwg:spirit",
+  "common_species": "dtbwg:spirit",
+  "primitive_log": "biomeswevegone:spirit_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_spirit_log",
+  "max_branch_radius": 12,
+  "texture_overrides": {
+    "branch": "biomeswevegone:block/spirit/log",
+    "branch_top": "biomeswevegone:block/spirit/log_top",
+    "stripped_branch": "biomeswevegone:block/spirit/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/spirit/stripped_log_top",
+    "roots_side": "biomeswevegone:block/spirit/log",
+    "roots_top": "biomeswevegone:block/spirit/log_top"
+  },
+  "default_soil": "dtbwg:spirit_aerial_roots",
+  "primitive_root": "biomeswevegone:spirit_roots",
+  "primitive_filled_root": "biomeswevegone:spirit_roots",
+  "primitive_covered_root": "biomeswevegone:pale_mud",
+  "root_system_acceptable_soils": ["dirt_like", "mud_like", "sand_like", "clay_like"]
+}

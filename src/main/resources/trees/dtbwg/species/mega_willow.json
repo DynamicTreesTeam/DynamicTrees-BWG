@@ -18,7 +18,7 @@
     "dry": 0.5
   },
   "perfect_biomes": {
-    "tag": "#forge:is_swamp"
+    "tag": "#c:is_swamp"
   },
   "primitive_sapling": "biomeswevegone:willow_sapling",
   "acceptable_soils": [

@@ -515,6 +515,16 @@
   },
   {
     "select": {
+      "name": "biomeswevegone:pale_bog"
+    },
+    "apply": {
+      "species": "dtbwg:spirit",
+      "density": [ 0.8 ],
+      "chance": 0.8
+    }
+  },
+  {
+    "select": {
       "name": "biomeswevegone:prairie"
     },
     "apply": {
@@ -742,7 +752,7 @@
     }
   },
   {
-    "select": { "tags" : ["#minecraft:is_beach", "!#forge:is_snowy"] },
+    "select": { "tags" : ["#minecraft:is_beach", "!#c:is_snowy"] },
     "apply": {
       "species": {
         "method": "splice_before",

@@ -1,0 +1,11 @@
+{
+  "primitive_leaves": "biomeswevegone:flowering_spirit_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/flowering_spirit_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/spirit/flowering_leaves"
+  },
+  "has_tick_particles": true
+}

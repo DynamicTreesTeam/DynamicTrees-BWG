@@ -18,7 +18,7 @@
     "wet": 0.75
   },
   "perfect_biomes": {
-    "tag": "#forge:is_coniferous"
+    "tag": "#c:is_coniferous"
   },
   "mega_species": "mega_spruce",
   "features": [

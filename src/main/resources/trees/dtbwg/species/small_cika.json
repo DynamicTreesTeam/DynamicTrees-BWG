@@ -16,7 +16,7 @@
   "seed": "dtbwg:cika_seed",
   "sapling_name": "cika_sapling",
   "perfect_biomes": {
-    "tag": "#forge:is_coniferous"
+    "tag": "#c:is_coniferous"
   },
   "primitive_sapling": "biomeswevegone:cika_sapling",
   "mega_species": "dtbwg:cika",

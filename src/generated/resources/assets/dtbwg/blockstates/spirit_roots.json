@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "layer=covered": {
+      "model": "biomeswevegone:block/pale_mud"
+    },
+    "layer=exposed": {
+      "model": "dtbwg:block/spirit_roots"
+    },
+    "layer=filled": {
+      "model": "dtbwg:block/spirit_roots_filled"
+    }
+  }
+}

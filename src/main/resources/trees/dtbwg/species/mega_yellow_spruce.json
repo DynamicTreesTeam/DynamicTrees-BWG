@@ -15,9 +15,9 @@
   },
   "leaves_properties": "dtbwg:yellow_spruce",
   "environment_factors": {
-    "#forge:is_hot": 0.50,
-    "#forge:is_dry": 0.25,
-    "#forge:is_wet": 0.75
+    "hot": 0.50,
+    "dry": 0.25,
+    "wet": 0.75
   },
   "features": [
     "conifer_topper",

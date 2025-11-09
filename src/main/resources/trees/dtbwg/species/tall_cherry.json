@@ -8,9 +8,9 @@
   "max_branch_radius": 10,
   "leaves_properties": "cherry",
   "environment_factors": {
-    "#forge:is_hot": 0.5,
-    "#forge:is_dry": 0.5,
-    "#is_forest": 1.05
+    "hot": 0.5,
+    "dry": 0.5,
+    "forest": 1.05
   },
   "perfect_biomes": {
     "name": "biomeswevegone:sakura.*"

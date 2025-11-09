@@ -12,7 +12,7 @@
     "wet": 0.75
   },
   "perfect_biomes": {
-    "tag": "#forge:is_coniferous"
+    "tag": "#c:is_coniferous"
   },
   "primitive_sapling": "biomeswevegone:pine_sapling",
   "mega_species": "dtbwg:mega_pine",

@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "biomeswevegone:pale_mud",
+  "acceptable_soils": [ "mud_like" ]
+}
