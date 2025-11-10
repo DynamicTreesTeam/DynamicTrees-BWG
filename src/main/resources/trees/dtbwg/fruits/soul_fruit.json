@@ -1,0 +1,9 @@
+{
+  "item_stack": "biomeswevegone:soul_fruit",
+  "block_shapes": [
+    { "function": "fruit", "parameters": { "width": 4, "height": 1, "stem_length": 0 } },
+    { "function": "fruit", "parameters": { "width": 2, "height": 4, "stem_length": 1 } },
+    { "function": "fruit", "parameters": { "width": 2, "height": 2, "stem_length": 3 } },
+    { "function": "fruit", "parameters": { "width": 3, "height": 6, "stem_length": 4 } }
+  ]
+}

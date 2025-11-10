@@ -1,0 +1,97 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout_mipped",
+	"textures": {
+		"particle": "#fruit",
+		"fruit": "dtbwg:block/soul_fruit"
+	},
+	"elements": [
+		{
+			"from": [6.5, 9, 6.5],
+			"to": [9.5, 12, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 5, 2, 6.5], "texture": "#fruit"},
+				"east": {"uv": [4, 5, 2.5, 6.5], "texture": "#fruit"},
+				"south": {"uv": [4.5, 5, 6, 6.5], "texture": "#fruit"},
+				"west": {"uv": [2.5, 5, 4, 6.5], "texture": "#fruit"},
+				"up": {"uv": [0.5, 3.5, 2, 5], "rotation": 180, "texture": "#fruit"},
+				"down": {"uv": [4.5, 5, 6, 6.5], "rotation": 180, "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [7, 6, 6.5],
+			"to": [9, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0.75, 6.5, 1.75, 8], "texture": "#fruit"},
+				"east": {"uv": [3.5, 6.5, 2.5, 8], "texture": "#fruit"},
+				"south": {"uv": [4.5, 6.5, 5.5, 8], "texture": "#fruit"},
+				"west": {"uv": [2.5, 6.5, 3.5, 8], "texture": "#fruit"},
+				"down": {"uv": [4.5, 7, 5.5, 8], "rotation": 180, "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [8, 5, 4],
+			"to": [8, 16, 12],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 12.5, 8]},
+			"faces": {
+				"east": {"uv": [7, 0, 11, 5.5], "texture": "#fruit"},
+				"west": {"uv": [7, 0, 11, 5.5], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [4, 5, 8],
+			"to": [12, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 12.5, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 11, 5.5], "texture": "#fruit"},
+				"south": {"uv": [7, 0, 11, 5.5], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [6.5, 9, 5.5],
+			"to": [6.5, 12, 10.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [6.5, 12, 8]},
+			"faces": {
+				"east": {"uv": [12.5, 2, 15, 3.5], "texture": "#fruit"},
+				"west": {"uv": [12.5, 2, 15, 3.5], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [9.5, 9, 5.5],
+			"to": [9.5, 12, 10.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [9.5, 12, 8]},
+			"faces": {
+				"east": {"uv": [12.5, 2, 15, 3.5], "texture": "#fruit"},
+				"west": {"uv": [12.5, 2, 15, 3.5], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [5.5, 12, 9.5],
+			"to": [10.5, 12, 12.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 12, 9.5]},
+			"faces": {
+				"up": {"uv": [12.5, 2, 15, 3.5], "texture": "#fruit"},
+				"down": {"uv": [12.5, 2, 15, 3.5], "rotation": 180, "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [5.5, 12, 3.5],
+			"to": [10.5, 12, 6.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 12, 6.5]},
+			"faces": {
+				"up": {"uv": [12.5, 0, 15, 1.5], "rotation": 180, "texture": "#fruit"},
+				"down": {"uv": [12.5, 0, 15, 1.5], "texture": "#fruit"}
+			}
+		}
+	]
+}

@@ -1,0 +1,98 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout_mipped",
+	"textures": {
+		"particle": "#fruit",
+		"fruit": "dtbwg:block/soul_fruit"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [7.5, 15, 8],
+			"to": [8.5, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 17, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [7, 7.5, 7.5, 8], "texture": "#fruit"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"south": {"uv": [7, 7.5, 7.5, 8], "texture": "#fruit"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#fruit"}
+			}
+		},
+		{
+			"name": "Element",
+			"from": [7.5, 15, 7.5],
+			"to": [7.5, 16, 8.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.5, 17, 7.5], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"east": {"uv": [8.5, 7.5, 9, 8], "texture": "#fruit"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"west": {"uv": [8.5, 7.5, 9, 8], "texture": "#fruit"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#fruit"}
+			}
+		},
+		{
+			"name": "Petal1",
+			"from": [6, 16, 7],
+			"to": [8, 16, 9],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"up": {"uv": [7.5, 8, 8.5, 7], "rotation": 90, "texture": "#fruit"},
+				"down": {"uv": [7.5, 7, 8.5, 8], "rotation": 270, "texture": "#fruit"}
+			}
+		},
+		{
+			"name": "Petal2",
+			"from": [8, 16, 7],
+			"to": [10, 16, 9],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"up": {"uv": [7.5, 8, 8.5, 7], "rotation": 270, "texture": "#fruit"},
+				"down": {"uv": [7.5, 7, 8.5, 8], "rotation": 90, "texture": "#fruit"}
+			}
+		},
+		{
+			"name": "Petal3",
+			"from": [7, 16, 6],
+			"to": [9, 16, 8],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"up": {"uv": [7.5, 8, 8.5, 7], "rotation": 180, "texture": "#fruit"},
+				"down": {"uv": [7.5, 7, 8.5, 8], "rotation": 180, "texture": "#fruit"}
+			}
+		},
+		{
+			"name": "Petal4",
+			"from": [7, 16, 8],
+			"to": [9, 16, 10],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#fruit"},
+				"up": {"uv": [7.5, 8, 8.5, 7], "texture": "#fruit"},
+				"down": {"uv": [7.5, 7, 8.5, 8], "texture": "#fruit"}
+			}
+		}
+	]
+}

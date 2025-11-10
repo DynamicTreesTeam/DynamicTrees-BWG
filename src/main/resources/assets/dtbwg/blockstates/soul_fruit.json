@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    {
+      "when": {"age": "0"},
+      "apply": [
+        { "model": "dtbwg:block/fruit/soul_fruit_age0" },
+        { "model": "dtbwg:block/fruit/soul_fruit_age0", "y": 90 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age0", "y": 180 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age0", "y": 270 }
+      ]
+    },
+    {
+      "when": {"age": "1"},
+      "apply": [
+        { "model": "dtbwg:block/fruit/soul_fruit_age1" },
+        { "model": "dtbwg:block/fruit/soul_fruit_age1", "y": 90 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age1", "y": 180 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age1", "y": 270 }
+      ]
+    },
+    {
+      "when": {"age": "2"},
+      "apply": [
+        { "model": "dtbwg:block/fruit/soul_fruit_age2" },
+        { "model": "dtbwg:block/fruit/soul_fruit_age2", "y": 90 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age2", "y": 180 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age2", "y": 270 }
+      ]
+    },
+    {
+      "when": {"age": "3"},
+      "apply": [
+        { "model": "dtbwg:block/fruit/soul_fruit_age3" },
+        { "model": "dtbwg:block/fruit/soul_fruit_age3", "y": 90 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age3", "y": 180 },
+        { "model": "dtbwg:block/fruit/soul_fruit_age3", "y": 270 }
+      ]
+    }
+  ]
+}

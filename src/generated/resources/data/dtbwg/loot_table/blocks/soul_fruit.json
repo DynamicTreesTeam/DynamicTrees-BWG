@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "dtbwg:soul_fruit",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "3"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "biomeswevegone:soul_fruit"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dtbwg:blocks/soul_fruit"
+}

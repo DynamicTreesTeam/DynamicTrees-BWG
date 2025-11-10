@@ -19,6 +19,7 @@
     "dry": 0.2
   },
   "perfect_biomes": { "tag": "#c:is_swamp" },
+  "drop_seeds": true,
   "primitive_sapling": "biomeswevegone:spirit_sapling",
   "sapling_shape": "slim_sapling",
   "model_overrides": {
@@ -26,6 +27,9 @@
   },
   "acceptable_soils": ["dirt_like", "mud_like", "water_like"],
   "plantable_on_fluid": true,
+  "fruits": [
+    "dtbwg:soul_fruit"
+  ],
   "features" : [
     {
       "name": "alt_leaves",
@@ -41,7 +45,13 @@
         "quantity": 24
       }
     },
-    "bee_nest"
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtbwg:soul_fruit",
+        "quantity": 2
+      }
+    }
   ],
   "lang_overrides": {
     "seed": "Spirit Propagule"
