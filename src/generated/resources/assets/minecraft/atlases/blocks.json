@@ -2,35 +2,27 @@
   "sources": [
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/skyris/log_top"
+      "resource": "biomeswevegone:block/aspen/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/skyris/stripped_log_top"
+      "resource": "biomeswevegone:block/aspen/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/zelkova/log_top"
+      "resource": "biomeswevegone:block/baobab/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/zelkova/stripped_log_top"
+      "resource": "biomeswevegone:block/baobab/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/spirit/log_top"
+      "resource": "biomeswevegone:block/blue_enchanted/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/spirit/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/mahogany/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/mahogany/stripped_log_top"
+      "resource": "biomeswevegone:block/blue_enchanted/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
@@ -38,51 +30,19 @@
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/sakura/log_top"
+      "resource": "biomeswevegone:block/cika/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/sakura/stripped_log_top"
+      "resource": "biomeswevegone:block/cika/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/jacaranda/log_top"
+      "resource": "biomeswevegone:block/cypress/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/jacaranda/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/palo_verde/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/palo_verde/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/palm/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/palm/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/witch_hazel/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/witch_hazel/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/holly/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/holly/stripped_log_top"
+      "resource": "biomeswevegone:block/cypress/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
@@ -102,11 +62,131 @@
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/cika/log_top"
+      "resource": "biomeswevegone:block/florus/stem_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/cika/stripped_log_top"
+      "resource": "biomeswevegone:block/florus/stripped_stem_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/green_enchanted/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/green_enchanted/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/holly/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/holly/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/ironwood/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/ironwood/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/jacaranda/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/jacaranda/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/mahogany/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/mahogany/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/maple/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/maple/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/palm/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/palm/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/palo_verde/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/palo_verde/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/pine/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/pine/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/rainbow_eucalyptus/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/rainbow_eucalyptus/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/redwood/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/redwood/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/sakura/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/sakura/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/skyris/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/skyris/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/spirit/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/spirit/stripped_log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/white_mangrove/log_top"
+    },
+    {
+      "type": "dynamictrees:thick_branch_rings",
+      "resource": "biomeswevegone:block/white_mangrove/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
@@ -122,99 +202,19 @@
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/blue_enchanted/log_top"
+      "resource": "biomeswevegone:block/witch_hazel/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/blue_enchanted/stripped_log_top"
+      "resource": "biomeswevegone:block/witch_hazel/stripped_log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/ironwood/log_top"
+      "resource": "biomeswevegone:block/zelkova/log_top"
     },
     {
       "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/ironwood/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/pine/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/pine/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/cypress/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/cypress/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/baobab/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/baobab/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/redwood/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/redwood/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/rainbow_eucalyptus/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/rainbow_eucalyptus/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/aspen/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/aspen/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/florus/stem_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/florus/stripped_stem_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/maple/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/maple/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/green_enchanted/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/green_enchanted/stripped_log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/white_mangrove/log_top"
-    },
-    {
-      "type": "dynamictrees:thick_branch_rings",
-      "resource": "biomeswevegone:block/white_mangrove/stripped_log_top"
+      "resource": "biomeswevegone:block/zelkova/stripped_log_top"
     }
   ]
 }

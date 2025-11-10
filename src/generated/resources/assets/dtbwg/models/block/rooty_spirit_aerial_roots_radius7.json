@@ -2,8 +2,8 @@
   "parent": "dynamictrees:block/smartmodel/rooty/aerial_roots_radius7",
   "textures": {
     "end": "biomeswevegone:block/spirit/log_top",
-    "overlay": "biomeswevegone:block/spirit/log",
-    "overlay_end": "biomeswevegone:block/spirit/log",
+    "overlay": "biomeswevegone:block/spirit/roots_side",
+    "overlay_end": "biomeswevegone:block/spirit/roots_side",
     "side": "biomeswevegone:block/spirit/log"
   }
 }

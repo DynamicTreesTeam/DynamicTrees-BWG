@@ -4,14 +4,16 @@
   "common_species": "dtbwg:spirit",
   "primitive_log": "biomeswevegone:spirit_log",
   "primitive_stripped_log": "biomeswevegone:stripped_spirit_log",
-  "max_branch_radius": 12,
+  "max_branch_radius": 8,
   "texture_overrides": {
     "branch": "biomeswevegone:block/spirit/log",
     "branch_top": "biomeswevegone:block/spirit/log_top",
     "stripped_branch": "biomeswevegone:block/spirit/stripped_log",
     "stripped_branch_top": "biomeswevegone:block/spirit/stripped_log_top",
-    "roots_side": "biomeswevegone:block/spirit/log",
-    "roots_top": "biomeswevegone:block/spirit/log_top"
+    "roots_side": "biomeswevegone:block/spirit/roots_side",
+    "roots_top": "biomeswevegone:block/spirit/roots_top",
+    "filled_roots_side": "dtbwg:/block/muddy_spirit_roots_side",
+    "filled_roots_top": "dtbwg:block/muddy_spirit_roots_side"
   },
   "default_soil": "dtbwg:spirit_aerial_roots",
   "primitive_root": "biomeswevegone:spirit_roots",

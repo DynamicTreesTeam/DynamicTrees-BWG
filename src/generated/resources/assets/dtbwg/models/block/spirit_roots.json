@@ -2,7 +2,7 @@
   "loader": "dynamictrees:roots",
   "render_type": "minecraft:cutout_mipped",
   "textures": {
-    "bark": "biomeswevegone:block/spirit/log",
-    "rings": "biomeswevegone:block/spirit/log_top"
+    "bark": "biomeswevegone:block/spirit/roots_side",
+    "rings": "biomeswevegone:block/spirit/roots_top"
   }
 }
