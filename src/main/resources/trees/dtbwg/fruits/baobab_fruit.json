@@ -1,9 +1,9 @@
 {
   "item_stack": "biomeswevegone:baobab_fruit",
   "block_shapes": [
-    { "function": "fruit", "parameters": { "width": 2.5, "height": 2, "stem_length": 7.5 } },
-    { "function": "fruit", "parameters": { "width": 1.5, "height": 3, "stem_length": 8.75 } },
-    { "function": "fruit", "parameters": { "width": 2, "height": 5, "stem_length": 10 } },
-    { "function": "fruit", "parameters": { "width": 2.5, "height": 8, "stem_length": 11.25 } }
+    { "function": "fruit", "parameters": { "width": 5, "height": 1.5, "stem_length": 6 } },
+    { "function": "fruit", "parameters": { "width": 3, "height": 3, "stem_length": 7 } },
+    { "function": "fruit", "parameters": { "width": 4, "height": 5, "stem_length": 8 } },
+    { "function": "fruit", "parameters": { "width": 5, "height": 8, "stem_length": 8 } }
   ]
 }

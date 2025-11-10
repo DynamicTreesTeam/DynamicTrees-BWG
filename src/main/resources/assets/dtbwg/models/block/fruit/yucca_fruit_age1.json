@@ -1,4 +1,5 @@
 {
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
@@ -7,8 +8,8 @@
 	},
 	"elements": [
 		{
-			"from": [7, 14, 7],
-			"to": [9, 16, 9],
+			"from": [6.5, 13, 6.5],
+			"to": [9.5, 16, 9.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [-2.2, -15, -2.8]},
 			"faces": {
 				"north": {"uv": [1, 6, 4, 9], "texture": "#apple"},
