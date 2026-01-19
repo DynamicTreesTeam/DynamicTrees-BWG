@@ -39,6 +39,17 @@
         "sprout_block": "dtbwg:witch_hazel_side_branch",
         "max_radius": 16
       }
+    },
+    {
+      "name": "vines",
+      "properties": {
+        "vine_type": "ceiling",
+        "block": "biomeswevegone:witch_hazel_blossom",
+        "quantity": 1,
+        "max_length": 1,
+        "ray_distance": 1,
+        "vertical_spread": 30
+      }
     }
   ],
   "lang_overrides": {
