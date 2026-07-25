@@ -8,12 +8,8 @@
   "soil_longevity": 12,
   "leaves_properties": "dtbwg:orange_birch",
   "seed": "dtbwg:orange_birch_seed",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5,
-    "forest": 1.05
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.45,
   "common_override": {
     "name": "minecraft:tall_birch.*"
   },

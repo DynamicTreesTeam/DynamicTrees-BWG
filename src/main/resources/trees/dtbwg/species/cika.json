@@ -16,11 +16,8 @@
     }
   },
   "leaves_properties": "dtbwg:cika",
-  "environment_factors": {
-    "hot": 0.8,
-    "dry": 0.75,
-    "wet": 0.9
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.45,
   "always_show_on_waila": false,
   "world_gen_leaf_map_height": 60,
   "common_override": {

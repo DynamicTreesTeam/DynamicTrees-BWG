@@ -8,11 +8,8 @@
   "soil_longevity": 16,
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:prairie_oak",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "world_gen_leaf_map_height": 60,
   "perfect_biomes": {
     "name": "biomeswevegone:prairie.*"

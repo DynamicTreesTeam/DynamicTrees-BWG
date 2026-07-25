@@ -14,12 +14,8 @@
   },
   "leaves_properties": "dtbwg:orange_spruce",
   "seed": "dtbwg:orange_spruce_seed",
-  "environment_factors": {
-    "cold": 1.1,
-    "hot": 0.2,
-    "dry": 0.4,
-    "forest": 0.9
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.3,
   "perfect_biomes": {
     "name": "biomeswevegone:.*crimson_tundra.*"
   },

@@ -13,10 +13,8 @@
       "canopy_depth": 6
     }
   },
-  "environment_factors": {
-    "snowy": 0.75,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "tag": "#c:is_swamp"
   },

@@ -7,10 +7,8 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "dtbwg:thin_conifer",
   "leaves_properties": "dtbwg:pine",
-  "environment_factors": {
-    "hot": 0.50,
-    "wet": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "tag": "#c:is_coniferous"
   },

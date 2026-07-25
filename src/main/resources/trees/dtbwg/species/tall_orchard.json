@@ -7,11 +7,8 @@
   "lowest_branch_height": 12,
   "leaves_properties": "dtbwg:orchard",
   "seed": "dtbwg:orchard_seed",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "name": "biomeswevegone:.*orchard.*"
   },

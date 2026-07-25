@@ -10,12 +10,8 @@
   "leaves_properties": "dtbwg:yellow_birch",
   "seed": "dtbwg:yellow_birch_seed",
   "growth_logic_kit": "dtbwg:ancient",
-  "environment_factors": {
-    "cold": 0.9,
-    "hot": 0.9,
-    "dry": 0.8,
-    "magical": 1.1
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.5,
   "perfect_biomes": {
     "name": "biomeswevegone:overgrowth_woodlands"
   },

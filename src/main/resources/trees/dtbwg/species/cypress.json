@@ -11,16 +11,14 @@
   "world_gen_leaf_map_height": 64,
   "growth_logic_kit": "dtbwg:cypress",
   "leaves_properties": "dtbwg:cypress",
-  "environment_factors": {
-    "hot": 0.7,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "tags": [
       "#c:is_swamp",
       "#minecraft:is_overworld"
     ]
-  },
+    },
   "primitive_sapling": "biomeswevegone:cypress_sapling",
   "acceptable_soils": [
     "water_like",

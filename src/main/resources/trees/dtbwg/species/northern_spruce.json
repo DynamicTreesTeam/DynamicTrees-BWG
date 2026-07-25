@@ -13,10 +13,8 @@
     }
   },
   "leaves_properties": "dtbwg:northern_spruce",
-  "environment_factors": {
-    "hot": 0.50,
-    "wet": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "tag": "#c:is_coniferous"
   },

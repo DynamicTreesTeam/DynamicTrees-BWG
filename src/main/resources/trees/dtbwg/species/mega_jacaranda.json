@@ -8,11 +8,8 @@
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:jacaranda",
   "growth_logic_kit": "dtbwg:maple",
-  "environment_factors": {
-    "cold": 0.75,
-    "snowy": 0.5,
-    "dry": 0.66
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "name": ".*jacaranda.*"
   },
@@ -34,15 +31,5 @@
       }
     },
     "bee_nest"
-  ],
-
-  "generate_seed": true,
-  "generate_sapling": true,
-  "sapling_shape": "fat_sapling",
-  "model_overrides": {
-    "sapling": "dynamictrees:block/smartmodel/large_sapling"
-  },
-  "lang_overrides": {
-    "seed": "Mega Jacaranda Pod"
-  }
+  ]
 }

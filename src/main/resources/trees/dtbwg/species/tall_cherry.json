@@ -7,11 +7,8 @@
   "growth_rate": 0.8,
   "max_branch_radius": 10,
   "leaves_properties": "cherry",
-  "environment_factors": {
-    "hot": 0.5,
-    "dry": 0.5,
-    "forest": 1.05
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "name": "biomeswevegone:sakura.*"
   },

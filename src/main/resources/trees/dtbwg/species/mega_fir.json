@@ -15,11 +15,8 @@
     }
   },
   "leaves_properties": "dtbwg:fir",
-  "environment_factors": {
-    "hot": 0.50,
-    "dry": 0.25,
-    "wet": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.3,
   "world_gen_leaf_map_height": 60,
   "perfect_biomes": {
     "tag": "#c:is_coniferous"

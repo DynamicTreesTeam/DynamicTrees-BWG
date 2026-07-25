@@ -8,11 +8,8 @@
   "max_branch_radius": 8,
   "growth_logic_kit": "dtbwg:diagonal_palm",
   "leaves_properties": "dtbwg:palm",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 1.1,
-    "dry": 1.1
-  },
+  "preferred_climate": "arid",
+  "climate_tolerance": 0.8,
   "mega_species": "dtbwg:mega_palm",
   "transformable": false,
   "perfect_biomes": {

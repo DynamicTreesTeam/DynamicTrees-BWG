@@ -6,10 +6,8 @@
   "lowest_branch_height": 6,
   "growth_rate": 0.7,
   "leaves_properties": "dtbwg:skyris",
-  "environment_factors": {
-    "hot": 0.5,
-    "dry": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.45,
   "perfect_biomes": {
     "name": "biomeswevegone:.*skyris.*"
   },

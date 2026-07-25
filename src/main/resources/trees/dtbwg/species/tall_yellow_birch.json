@@ -8,12 +8,8 @@
   "soil_longevity": 12,
   "leaves_properties": "dtbwg:yellow_birch",
   "seed": "dtbwg:yellow_birch_seed",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5,
-    "forest": 1.05
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "common_override": {
     "name": "minecraft:tall_birch.*"
   },

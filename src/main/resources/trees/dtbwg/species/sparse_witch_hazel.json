@@ -9,10 +9,8 @@
   "leaves_properties": "dtbwg:sparse_witch_hazel",
   "growth_logic_kit": "dtbwg:ebony",
   "does_rot": false,
-  "environment_factors": {
-    "snowy": 0.75,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "name": ".*witch.*"
   },

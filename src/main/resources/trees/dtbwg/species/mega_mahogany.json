@@ -8,10 +8,8 @@
   "soil_longevity": 20,
   "max_branch_radius": 22,
   "leaves_properties": "dtbwg:mahogany",
-  "environment_factors": {
-    "cold": 0.75,
-    "dry": 0.5
-  },
+  "preferred_climate": "tropical",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "tag": "#minecraft:is_jungle"
   },

@@ -7,11 +7,8 @@
   "growth_rate": 1.1,
   "growth_logic_kit": "dtbwg:tapered",
   "leaves_properties": "dtbwg:holly",
-  "environment_factors": {
-    "hot": 0.50,
-    "dry": 0.25,
-    "wet": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "name": ".*dacite_ridges.*"
   },
