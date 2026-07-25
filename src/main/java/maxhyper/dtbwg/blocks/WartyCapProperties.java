@@ -67,9 +67,9 @@ public class WartyCapProperties extends CapProperties {
    }
 
    @Override
-   public BlockBehaviour.Properties getDefaultBlockProperties(final MapColor mapColor) {
+   public BlockBehaviour.Properties getDefaultBlockProperties() {
        return BlockBehaviour.Properties.of()
-                .mapColor(mapColor.GRASS)
+                .mapColor(MapColor.GRASS)
                 .strength(1.0F)
                 .sound(SoundType.WART_BLOCK);
    }
