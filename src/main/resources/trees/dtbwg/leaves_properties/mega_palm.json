@@ -1,7 +1,7 @@
 {
   "type": "palm",
   "primitive_leaves": "biomeswevegone:palm_leaves",
-  "cell_kit": "dtbwg:palm",
+  "cell_kit": "dynamictrees:palm",
   "color": "#BBFF59",
   "model_overrides": {
     "leaves": "biomeswevegone:block/palm_leaves"
