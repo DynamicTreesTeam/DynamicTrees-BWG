@@ -14,10 +14,8 @@
   "leaves_properties": "dtbwg:spirit",
   "growth_logic_kit": "dark_oak",
   "roots_growth_logic_kit": "mangrove_roots",
-  "environment_factors": {
-    "hot": 0.75,
-    "dry": 0.2
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.3,
   "perfect_biomes": { "tag": "#c:is_swamp" },
   "drop_seeds": true,
   "primitive_sapling": "biomeswevegone:spirit_sapling",

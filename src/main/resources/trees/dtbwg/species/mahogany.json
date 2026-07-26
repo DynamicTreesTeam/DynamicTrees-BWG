@@ -9,10 +9,8 @@
   "lowest_branch_height": 0,
   "growth_rate": 0.9,
   "leaves_properties": "dtbwg:mahogany",
-  "environment_factors": {
-    "cold": 0.75,
-    "dry": 0.5
-  },
+  "preferred_climate": "tropical",
+  "climate_tolerance": 0.35,
   "mega_species": "dtbwg:mega_mahogany",
   "perfect_biomes": {
     "tag": "#minecraft:is_jungle"

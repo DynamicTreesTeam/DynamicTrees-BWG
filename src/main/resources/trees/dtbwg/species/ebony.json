@@ -8,11 +8,8 @@
   "soil_longevity": 20,
   "leaves_properties": "dtbwg:ebony",
   "growth_logic_kit": "dtbwg:ebony",
-  "environment_factors": {
-    "cold": 0.9,
-    "hot": 0.75,
-    "dry": 0.8
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.5,
   "perfect_biomes": {
     "name": ".*ebony.*"
   },

@@ -8,10 +8,8 @@
   "soil_longevity": 10,
   "max_branch_radius": 10,
   "leaves_properties": "dtbwg:ironwood",
-  "environment_factors": {
-    "cold": 0.75,
-    "forest": 0.9
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.7,
   "perfect_biomes": {
     "name": "biomeswevegone:.*ironwood.*"
   },

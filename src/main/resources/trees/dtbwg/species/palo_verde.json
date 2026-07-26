@@ -6,11 +6,8 @@
   "lowest_branch_height": 2,
   "growth_rate": 0.7,
   "leaves_properties": "dtbwg:palo_verde",
-  "environment_factors": {
-    "cold": 0.25,
-    "nether": 0.75,
-    "wet": 0.75
-  },
+  "preferred_climate": "arid",
+  "climate_tolerance": 0.25,
   "perfect_biomes": {
     "tag": "#(minecraft:is_badlands)|(c:is_desert)"
   },

@@ -10,10 +10,8 @@
   "growth_rate": 0.6,
   "leaves_properties": "dtbwg:white_mangrove",
   "roots_growth_logic_kit": "mangrove_roots",
-  "environment_factors": {
-    "cold": 0.75,
-    "dry": 0.2
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.25,
   "perfect_biomes": { "tag": "#c:is_swamp" },
   "primitive_sapling": "biomeswevegone:white_mangrove_sapling",
   "sapling_shape": "slim_sapling",

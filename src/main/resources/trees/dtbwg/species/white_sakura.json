@@ -7,18 +7,14 @@
   "growth_rate": 0.8,
   "max_branch_radius": 10,
   "leaves_properties": "dtbwg:white_sakura",
-  "environment_factors": {
-    "cold": 1.1,
-    "hot": 0.2,
-    "dry": 0.4,
-    "forest": 0.9
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.3,
   "perfect_biomes": {
     "name": "biomeswevegone:sakura.*"
   },
   "primitive_sapling": "biomeswevegone:white_sakura_sapling",
   "features": [
-    "bee_nest"
+        "bee_nest"
   ],
   "lang_overrides": {
     "seed": "White Sakura Pit"

@@ -1,5 +1,5 @@
 {
-  "type": "dtbwg:diagonal_palm",
+  "type": "palm",
   "common_leaves": "dtbwg:palm",
   "common_species": "dtbwg:palm",
   "primitive_log": "biomeswevegone:palm_log",

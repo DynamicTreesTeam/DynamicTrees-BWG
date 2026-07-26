@@ -7,10 +7,8 @@
   "growth_rate": 0.9,
   "growth_logic_kit": "dtbwg:tapered",
   "leaves_properties": "dtbwg:tapered_oak",
-  "environment_factors": {
-    "hot": 0.75,
-    "dry": 0.50
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "common_override": {
     "name": "biomeswevegone:fragment_jungle"
   },

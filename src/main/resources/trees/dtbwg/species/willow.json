@@ -6,10 +6,8 @@
   "lowest_branch_height": 6,
   "growth_rate": 0.8,
   "growth_logic_kit": "dtbwg:willow",
-  "environment_factors": {
-    "snowy": 0.75,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "tag": "#c:is_swamp"
   },

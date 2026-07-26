@@ -41,7 +41,7 @@ public class EmburGelCapProperties extends CapProperties {
     }
 
     @Override
-    public BlockBehaviour.Properties getDefaultBlockProperties(MapColor mapColor) {
+    public BlockBehaviour.Properties getDefaultBlockProperties() {
         return BlockBehaviour.Properties.ofFullCopy(Blocks.CLAY).mapColor(MapColor.TERRACOTTA_YELLOW).sound(SoundType.HONEY_BLOCK).noOcclusion().speedFactor(1.3f);
     }
 

@@ -11,10 +11,8 @@
   "generate_sapling": true,
   "growth_logic_kit": "dtbwg:araucaria",
   "leaves_properties": "dtbwg:araucaria",
-  "environment_factors": {
-    "wet": 0.75,
-    "cold": 0.50
-  },
+  "preferred_climate": "arid",
+  "climate_tolerance": 0.3,
   "common_override": {
     "name": "biomeswevegone:.*araucaria.*"
   },

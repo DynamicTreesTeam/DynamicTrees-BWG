@@ -9,11 +9,8 @@
   "max_branch_radius": 24,
   "growth_logic_kit": "dtbwg:redwood",
   "leaves_properties": "dtbwg:redwood",
-  "environment_factors": {
-    "hot": 0.50,
-    "dry": 0.25,
-    "forest": 1.05
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "world_gen_leaf_map_height": 64,
   "common_override": {
     "name": ".*redwood.*"

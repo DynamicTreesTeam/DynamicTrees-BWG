@@ -7,11 +7,8 @@
   "growth_rate": 1.2,
   "leaves_properties": "dtbwg:jacaranda",
   "growth_logic_kit": "dtbwg:maple",
-  "environment_factors": {
-    "cold": 0.75,
-    "snowy": 0.5,
-    "dry": 0.66
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "name": ".*jacaranda.*"
   },

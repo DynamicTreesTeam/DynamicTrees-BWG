@@ -14,11 +14,8 @@
     }
   },
   "leaves_properties": "dtbwg:yellow_spruce",
-  "environment_factors": {
-    "hot": 0.50,
-    "dry": 0.25,
-    "wet": 0.75
-  },
+  "preferred_climate": "cold",
+  "climate_tolerance": 0.35,
   "world_gen_leaf_map_height": 70,
   "features": [
     "conifer_topper",

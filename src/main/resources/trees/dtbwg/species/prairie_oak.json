@@ -5,11 +5,8 @@
   "growth_rate": 0.8,
   "lowest_branch_height": 4,
   "leaves_properties": "dtbwg:prairie_oak",
-  "environment_factors": {
-    "cold": 0.75,
-    "hot": 0.5,
-    "dry": 0.5
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.35,
   "perfect_biomes": {
     "name": "biomeswevegone:prairie.*"
   },

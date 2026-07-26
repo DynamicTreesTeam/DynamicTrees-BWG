@@ -8,11 +8,8 @@
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:indigo_jacaranda",
   "growth_logic_kit": "dtbwg:maple",
-  "environment_factors": {
-    "cold": 0.75,
-    "snowy": 0.5,
-    "dry": 0.66
-  },
+  "preferred_climate": "temperate",
+  "climate_tolerance": 0.4,
   "perfect_biomes": {
     "name": ".*jacaranda.*"
   },

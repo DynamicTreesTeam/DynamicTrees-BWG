@@ -15,10 +15,8 @@
     }
   },
   "leaves_properties": "dtbwg:rainbow_eucalyptus",
-  "environment_factors": {
-    "snowy": 0.5,
-    "dry": 0.75
-  },
+  "preferred_climate": "tropical",
+  "climate_tolerance": 0.35,
   "mega_species": "dtbwg:mega_rainbow_eucalyptus",
   "perfect_biomes": {
     "tag": "#minecraft:is_jungle"
